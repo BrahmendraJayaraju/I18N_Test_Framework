@@ -13,6 +13,7 @@ import java.util.InputMismatchException;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
+import java.util.Properties;
 import java.util.Set;
 import java.util.TreeSet;
 import java.util.stream.Stream;
@@ -40,6 +41,23 @@ import com.google.gson.JsonObject;
 import junit.framework.Assert;
 
 public class commonexcel extends AdminBaseControl {
+	
+	
+	
+	public static String readPropertyFiles(String filePath, String locatorName) throws Exception {
+		Properties properties = new Properties();
+
+		try {
+			String projectpath = System.getProperty("user.dir");
+
+			FileInputStream fileInputStream = new FileInputStream(projectpath + filePath);
+			properties.load(fileInputStream);
+
+		} catch (Exception var4) {
+			var4.getStackTrace();
+		}
+		return properties.getProperty(locatorName);
+	}
 
 	public static String getdata(String pathname, String Sheetname, int rn, int cn) throws Exception {
 		{
@@ -441,5 +459,11 @@ public class commonexcel extends AdminBaseControl {
 		return data;
 
 	}
+	
+	
+	
+	
+	
+
 
 }
