@@ -1,0 +1,15 @@
+{
+    "Resend_Certificate": {
+        "resend.certificate.congratulations": "Onneksi olkoon!",
+        "resend.certificate.dear": "Hei",
+        "resend.certificate.body": "Onnittelut suorituksestasi:",
+        "resend.certificate.team": "GE Digital Expert -tiimi",
+        "resend.certificate.ge": "GE Healthcare",
+        "resend.certificate.completion": "KURSSITODISTUS",
+        "resend.certificate.awarded": "Saaja:",
+        "resend.certificate.successful": "Osoituksena seuraavasta suorituksesta:",
+        "resend.certificate.on": "Päivämäärä:",
+        "resend.certificate.subject": "Kurssitodistus.",
+        "resend.certificate.file": "Todistus.pdf"
+    }
+}

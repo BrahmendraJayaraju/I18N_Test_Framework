@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-16T12:28:44 IST" name="Suite" finished-at="2024-04-16T12:35:29 IST" duration-ms="404914">
+    <groups>
+    </groups>
+    <test started-at="2024-04-16T12:28:44 IST" name="International_DE_App" finished-at="2024-04-16T12:35:29 IST" duration-ms="404914">
+      <class name="deapp.International_DE_APP_HighestStringLength">
+        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:deapp.International_DE_APP_HighestStringLength@11392934]" started-at="2024-04-16T12:28:44 IST" name="extentReportSetUp" finished-at="2024-04-16T12:28:44 IST" duration-ms="387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportSetUp -->
+        <test-method signature="Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:deapp.International_DE_APP_HighestStringLength@11392934]" started-at="2024-04-16T12:28:44 IST" name="Get_HighestLength_String_of_Particular_LanguageKey" description="Verify  which language key is having highest number of characters" finished-at="2024-04-16T12:35:29 IST" duration-ms="404571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_HighestLength_String_of_Particular_LanguageKey -->
+        <test-method is-config="true" signature="PostConditionTestStatus(org.testng.ITestResult)[pri:0, instance:deapp.International_DE_APP_HighestStringLength@11392934]" started-at="2024-04-16T12:35:29 IST" name="PostConditionTestStatus" finished-at="2024-04-16T12:35:29 IST" duration-ms="271" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Get_HighestLength_String_of_Particular_LanguageKey status=SUCCESS method=International_DE_APP_HighestStringLength.Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:deapp.International_DE_APP_HighestStringLength@11392934] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostConditionTestStatus -->
+        <test-method is-config="true" signature="addToReport()[pri:0, instance:deapp.International_DE_APP_HighestStringLength@11392934]" started-at="2024-04-16T12:35:29 IST" name="addToReport" finished-at="2024-04-16T12:35:29 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToReport -->
+      </class> <!-- deapp.International_DE_APP_HighestStringLength -->
+    </test> <!-- International_DE_App -->
+  </suite> <!-- Suite -->
+</testng-results>

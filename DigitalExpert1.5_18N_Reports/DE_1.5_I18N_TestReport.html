@@ -1,0 +1,3838 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>DigitalExpert1.5_I18N_TestReport</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 16, 2024 12:28:44 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">TesterName=brahmendra.jayaraju@ge.com</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Feature.International_DE_APP_HighestStringLength</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="TesterName=brahmendra.jayaraju@ge.com"
+          tag="Feature.International_DE_APP_HighestStringLength"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase TC3500 Verify DE_APP  with highest number of characters string </p>
+            <p class="text-sm">
+              <span>12:28:44 pm</span> / <span>00:06:44:564</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase TC3500 Verify DE_APP with highest number of characters string </h5>
+<span class='badge badge-success'>04.16.2024 12:28:44 pm</span>
+<span class='badge badge-danger'>04.16.2024 12:35:29 pm</span>
+<span class='badge badge-default'>00:06:44:564</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@ge.com</span>
+<span class="badge badge-pill badge-default">Feature.International_DE_APP_HighestStringLength</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:28:45 pm</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=481</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:29:46 pm</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[null, HEADING, GET_STARTED, START_TRAINING, WHO_IS_TRAINING, SELECT_INFO, NO_ACCOUNT_FOUND, Wifi_needs, As_soon_as, PLEASE_SELECT_THE_ROLE, operate_medical, care_for_patients, troubleshoot_and_fix_equipment, medical_systems_and_staff, Roles, aka_Sonographer, aka_Nurse, aka_Biomed, aka_Admin, Sonographer, Mammographer, Radiologist, Technologist, Doctor, Anesthetist, Cardiologist, Obstetrics, Pharmacist, Surgeon, Physicist, Nurse, Dentist, Orthodontist, IT, Biomedical_Engineering, Admin, Business_Management, Procurement, Nurse_Unit_Manager, Conditions_Modal, Conditions_Modal_second, STARTED, Sorry_we_couldnt_find, Please_contact_your, Sorry_this_key, Please_contact_your_GE, Something_went_wrong, Please_try_again, For_security_reasons, before_trying_again, ENTER_TEXT, KEY_INFO, ASSISSTANCE_TEXT, ACTIVATE, SWITCH_LANGUAGE, Please_try_again, HEADING, ENTERPRISE_ONLY, GE_ENTERPRISE, FINISH_SETUP, GET_STARTED_HEADING, Return_to_My_Courses, NAME_EXAMPLE, EMAIL_ADDRESS, EMAIL_INFO, CHECK_FOR_ACCOUNT, ACCOUNT_EXISTS, INVALID_ACCOUNT, SUPPORT_TEAM, DISABLED_ACCOUNT, DE_SUPPORT_TEAM, LOG_IN, CONTINUE, ALMOST_DONE, FULL_NAME, MOBILE_NUMBER, MOBILE_INFO, ONE_MORE_STEP, PERSONALISE_INFO, RESPONSIBILITY_INFO, ROLE_INFO, TITLE, VIEW_ALL, TERMS_AND_CONDITIONS, PASSWORD_MUST_CONTAIN, EIGHT_CHARACTERS_MAX, UPPERCASE, SPECIAL_CHARACTER, NUMERIC_DIGIT, LOWERCASE, CREATE_PASSWORD, CANCEL, TERMS_AND_CONDITIONS_MODAL, CLOSE, TERMS_OF_USE, PRIVACY_POLICY, AND, START_LEARNING, SET_ROLE, BAD, GREAT, KOL_COURSE, Buy_INR, Buy_Credit, NAME_REQUIRED, NAME_SPECIAL_CHARS, NAME_NUMERIC_CHARS, PHONE_NUMBER_REQUIRED, INVALID_NUMBER, DIGITS_VALIDATION, PLEASE_ENTER, VALID_EMAIL, Be_more_Do_more, Go_to_Enterprise, Browse_our_courses, Browse_Courses, Upcoming_training, Recommended_for_you, Popular_Resources, Enter_the_Enterprise, WITH, Course_Booked, Course_Rescheduled, WELCOME_BACK, UPDATE_AVAILABLE, UPDATE_DESCRIPTION, UPDATE_APP, SUBSCRIPTION_REQUIRED, SUBSCRIPTION_REQUIRED_DESCRIPTION, CONTACT_US_AT, CONTACT_GE, SUBSCRIPTION_TO_START, SUBSCRIPTION_START_DATE, RENEW_SUBSCRIPTION, RENEW_SUBSCRIPTION_INFO, SUBSCRIPTION_EXPIRED, SUBSCRIPTION_EXPIRED_INFO, Continual_Education, Course, INR, CREDITS, SCHEDULE_A_SESSION, ABOUT_THIS_COURSE, REQUIREMENTS, NEED_HELP, ENTERPRISE_WAITING_ROOM_MESSAGE, ENTER_WAITING_ROOM, ENTERPRISE_COURSE_NOT_SETUP, NO_COURSES_AVAILABLE, TERMS_AND_CONDITIONS, BUY, REGISTER, SELECT_DATE_TIME, PAID_INFO, INSTRUCTOR, AVAILABLE_OPENINGS, LOADING_INFO, INVALID_INFO, INVALID_MESSAGE, OBJECTIVES_INFO, MEET_TRAINERS, VIEW_FULL_BIO, ALL, PAID, FREE, CREDITS_BALANCE, ZERO_CREDITS_INFO, CONTACT_GE, AVAILABLE_CREDITS, CREDIT, m, Something_went_wrong, Connect_Equipment, Start_Training, Started, Starts_in, Not_Now, You_are_about_to_cancel, Selected, By_cancelling_or_rescheduling, Select, Last_month, Last_Year, months, View, Credit_Pending, Absent, Thanks_for_tracking, Download_your_scorecard, Describe_your_issue, quickly_as_possible, COURSE, BROWSE_COURSES, NO_COURSES_COMPLETED, DOWNLOAD_TRAINING_RECORD, STARTS, DOWNLOAD_SCORECARD, POST_ASSESSMENT_INFO, TEST_KNOWLEDGE, BACK, BOOKED_ON, ABOUT_THIS_COURSE, REQUIREMENTS, INFORMATION_BANNER_TITLE, INFORMATION_BANNER_DESCRIPTION, CANCEL_COURSE, RESCHEDULE_COURSE, NOVICE, BEGINNER, MODERATE, EXPERT, save_answers, ASSESSMENTS_MODAL_INFO, ERROR_MESSAGE, ERROR_INFO, NO_QUESTIONS_AVAILABLE, RATING_INFO, TRAINING_FEEDBACK_INFO, TRAINING_FEEDBACK_MESSAGE, SESSION_SCHEDULED, NO_COURSES_SCHEDULED, PREASSESSMENT_TAKEN, PREASSESSMENT_INFO, SHOW_MORE, SUBMIT_DISPUTE, CANCEL, DISPUTE_COURSE, DISPUTE_COURSE_DESCRIPTION, VIEWS, COURSE_CREDIT_PENDING, SCHEDULED_FOR, Scheduled, WAY_TO_GO, TRAINING_COMPLETE_TIME_CREDITED, DISPUTE_PROGRESS, DISPUTE_RESOLVED, SOMETHING_NOT_RIGHT, WE_MISSED_YOU, ABSENT_TRAINING_TIME_CREDITED, THANKS_FOR_RESPONSE, OPINION_MATTERS, SUBMITTING_FEEDBACK, HOW_WAS_TRAINING, TRAINER, NO_REQUIREMENTS, NO_DESCRIPTION, QUESTION, BACK, SUBMIT_QUESTION, HOW_CAN_WE_HELP, CHOOSE_MODALITY, QUESTION, RETRY, DELETE, REPLIES, REPLY, SHOW, PREVIOUS, NEXT, SUBMIT_REPLY, SENDING, FAILED_TO_SEND, NO_EARLIER_QUESTIONS, LAST_REPLY_BY, ON, AT, ASKED, EARLIER_QUESTIONS, NO_NEW_REPLIES, QUESTION_INFO, ASK_SPECIALISTS, SHOW_MORE, ASK_A_QUESTION, New_Replies, Role, FEEDBACK_HEADING, FEEDBACK_INFO, SUBMIT_FEEDBACK, CANCEL, DIGITAL_EXPERT, SEND_FEEDBACK, ABOUT, VIEW_TOP_COURSES, COMPLETED, UPCOMING, DISPUTED, AVAILABLE, SUBSCRIPTION_EXPIRY, NO_TOP_COURSES, TOP_COURSE_TAKEN, BACK, EMAIL, PHONE_NUMBER, RANK, YOU_ABLE_TO, training_and_manage, give_training_and_take_training, take_and_give, GE_Healthcare, CONTINUE, CANCEL, REDIRECT, ISSUE, VIDEOS, DOCUMENTS, NO_VIDEOS_AVAILABLE, NO_DOCUMENTS_AVAILABLE, NEW, EARLIER, CLEAR, CLEAR_ALL, NO_EMAIL_REQUEST, RESEND_LINK, NO_NEW_NOTIFICATIONS, NO_EARLIER_NOTIFICATIONS, SUBSCRIPTION_EXPIRED_INFO, ENTER_SUPPORT_SESSION, ERROR_MESSAGE, CONNECT_SUPPORT, SUPPORT, START_SESSION, ENTER_SESSION, GE_PERSONNEL, TRAINER_NOT_AVAILABLE, SELECT_MODALITY, REQUEST_CALL, ACCOUNT_NOT_CONFIGURED, CONTACT_US, Access, Access_History, Date_Time, Request_type, Requestor, Request_status, No_Access_History_Available, Loading_history, New_Trainer_License_Request, Email_address, Full_Name, Submit_Request, Comments, Send_copy_of_request_to, is_currently_a_Participant, is_currently_not_a_Participant, already_has_a_request_pending, Start_New_Trainer_License_Request, already_has_a_Trainer_License, placeholder_text, bottomlabel_text, Transfer_Trainer_License_Request, Are_you_sure, Transfering_the_license, Transfer_to_email_address, New_Trainers_full_Name, Requested, undo_this_request, Cancel_Request, Remove_Access, Loading_Details, Request, Pending_Account_Request, Contact, View_access_history, Actions, Transfer_Trainer_License, Request_Trainer_License, Grant_Admin_Access, Remove_Admin_Access, Remove_Trainer_Access, Remove_Participant_Access, No_information_found, Trainers, Please_check_your_email, Contact_GE_Support, How_can_we_help_you, Need_help, No, Users, Manage_Access, Action, How_can_I_add, Loading_Team_members, Send_Support_Request, DASHBOARD, COURSES, ENTERPRISE, KOL, MY_COURSES, RESOURCES, NOTIFICATIONS, SUPPORT, MY_TEAM, ACCOUNT, LOGOUT, With_GE_Trainer, Enter_Session, GE_COURSE, Expert_Application_Training, Invalid_Vsee_Code, MSG0023, User_Language, CHANGING_USER_LANGUAGE, MSG0020, MSG0022, MSG0021, MSG0024, COURSES, Basic, Advance, Intermediate, hours, days, months, minutes, 10022, Request_cancelled_successfully, TRAINER, MSG0014, MSG0029, MSG0018, MSG0017, MSG0016, MSG0015, MSG0021, MSG0013, months_ago, days_ago, minutes_ago, a_few_seconds_ago, ERR0003, ERR0104, 10001, 10003, 10054, 10055, 10053, MSG0014, MSG0015, MSG0115, ERR0015, MSG0001, MSG0002, MSG0003, MSG0004, MSG0005, MSG0006, MSG0008, MSG0063, MSG0060, MSG0061, MSG0062, a_minute, minute, a_day, ENTER_KEY, User_Language, Language_successfully_saved, seconds_ago, hours_ago, DIGITAL_EXPERT_ACCESS, INFORMATION_BANNER_TITLE_AGO, LANGUAGE, MSG0026, MSG0027, years_ago, an_hour_ago, a_year_ago, a_month_ago, a_day_ago, UPDATE_DIGITAL_EXPERT_CONNECTIVITY_TOOL_NOW, UPDATE_CONNECTIVITY_TOOL, UPDATED_TOOL_AVAILABLE, SUB_HEADING, PLEASE_SELECT_THE_APPLICATION_Language, seconds, changing_language_afterwards, Apply, submit_a_dispute, a_month, Loading_users, an_hour, nocodeYet19row]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:29:46 pm</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[null, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, loginPage, activation, activation, activation, activation, activation, activation, edition, edition, edition, edition, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, account, error_messages, error_messages, error_messages, error_messages, error_messages, error_messages, error_messages, error_messages, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, coursecard, home, home, home, home, home, home, home, home, home, home, home, home, home, home, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, courses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, contactus, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, settings, serviceshop, serviceshop, serviceshop, serviceshop, resources, resources, resources, resources, notifications, notifications, notifications, notifications, notifications, notifications, notifications, notifications, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, supportSessions, accessHistory, accessHistory, accessHistory, accessHistory, accessHistory, accessHistory, accessHistory, accessHistory, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, addTrainer, transferTrainer, transferTrainer, transferTrainer, transferTrainer, transferTrainer, transferTrainer, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, viewRequest, myteams, myteams, myteams, myteams, myteams, myteams, myteams, myteams, myteams, myteams, myteams, myteams, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, sideMenu, Contact_GE, Contact_GE, Contact_GE, Contact_GE, Contact_GE, dynamic_msg, account, account, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, sideMenu, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, mycourses, dynamic_msg, myteams, mycourses, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, mycourses, mycourses, mycourses, mycourses, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, dynamic_msg, mycourses, mycourses, mycourses, activation, account, account, mycourses, mycourses, activation, mycourses, settings, dynamic_msg, dynamic_msg, mycourses, mycourses, mycourses, mycourses, mycourses, home, home, home, activation, activation, mycourses, activation, settings, mycourses, mycourses, loginPage, mycourses, dynamic_msg]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={account} key={GREAT} value={Fantastisk}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={account} key={PRIVACY_POLICY} value={Politik om beskyttelse af personlige oplysninger}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={account} key={Return_to_My_Courses} value={Vend tilbage til Mine kurser}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={coursecard} key={Course_Rescheduled} value={Tidspunktet for kurset blev ændret}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={dynamic_msg} key={MSG0060} value={Indien}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={loginPage} key={aka_Admin} value={f.eks. administrationsmedarbejder, direktør}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={loginPage} key={care_for_patients} value={Jeg tager mig af patienterne}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={mycourses} key={QUESTION} value={Spørgsmål}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={mycourses} key={a_day_ago} value={for en dag siden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={mycourses} key={a_month_ago} value={for en måned siden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Danish} Feature={myteams} key={Need_help} value={Har du brug for hjælp?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={account} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={account} key={CHECK_FOR_ACCOUNT} value={Controleren of er een account bestaat}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={account} key={DISABLED_ACCOUNT} value={Uw Digital Expert-account is uitgeschakeld. Neem contact op met het Digital Expert-ondersteuningsteam}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={account} key={RESPONSIBILITY_INFO} value={Hoe zou u de verantwoordelijkheden van uw functie beschrijven?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={account} key={SET_ROLE} value={Stel een functie in}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={contactus} key={ASK_SPECIALISTS} value={Vraag het onze specialisten op het gebied van toepassingen!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={contactus} key={DELETE} value={Delete (Verwijderen)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={contactus} key={SHOW_MORE} value={Meer weergeven}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={coursecard} key={Browse_Courses} value={Door de cursussen bladeren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={BUY} value={Bestellen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={CONTACT_GE} value={Contact opnemen met GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={Credit_Pending} value={Credit in behandeling}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={PAID_INFO} value={Door de aankoop van dit product gaat u akkoord met de}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={REQUIREMENTS} value={Benodigdheden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={months} value={De afgelopen 6 maanden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={courses} key={quickly_as_possible} value={zo snel mogelijk kunnen helpen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={dynamic_msg} key={MSG0001} value={Je abonnement verloopt over [#PLACEHOLDER0] dagen en er zijn nog slechts [#PLACEHOLDER1] cursussen over.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={dynamic_msg} key={MSG0029} value={In behandeling}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={error_messages} key={NAME_NUMERIC_CHARS} value={Numerieke waarde is niet toegestaan}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={error_messages} key={NAME_SPECIAL_CHARS} value={Speciaal teken is niet toegestaan}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={home} key={CONTACT_GE} value={Contact opnemen met GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={loginPage} key={Nurse} value={Verpleegkundige}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={BROWSE_COURSES} value={Bekijk de cursussen om een trainingssessie te plannen!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={DOWNLOAD_TRAINING_RECORD} value={Download een verslag van uw trainingen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={OPINION_MATTERS} value={ Uw mening is belangrijk voor ons, waardoor wij een betere ervaring voor u kunnen creëren.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={REQUIREMENTS} value={Benodigdheden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={SHOW_MORE} value={Meer weergeven}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={a_few_seconds_ago} value={een paar seconden geleden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={a_year_ago} value={een jaar geleden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={days_ago} value={dagen geleden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={seconds_ago} value={seconden geleden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={notifications} key={CLEAR_ALL} value={Alles verwijderen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={notifications} key={CLEAR} value={Clear (Wissen)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={notifications} key={NEW} value={New (Nieuw)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={notifications} key={RESEND_LINK} value={Activeringskoppeling opnieuw verzenden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={resources} key={VIDEOS} value={Video's}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={serviceshop} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={settings} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={sideMenu} key={COURSES} value={Cursussen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={sideMenu} key={COURSES} value={Cursussen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={sideMenu} key={MY_COURSES} value={Mijn cursussen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={sideMenu} key={RESOURCES} value={Informatiebronnen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={supportSessions} key={CONTACT_US} value={Contact met ons opnemen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={supportSessions} key={REQUEST_CALL} value={Vul een verzoek in of neem telefonisch contact met ons op}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={viewRequest} key={Actions} value={Handelingen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={coursecard} key={WITH} value={with}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={courses} key={Course} value={Course}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={dynamic_msg} key={MSG0026} value={Your Subscription has Expired}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={edition} key={GE_ENTERPRISE} value={GE and Enterprise}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={mycourses} key={COURSE} value={COURSE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={settings} key={LANGUAGE} value={Language}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={account} key={LOG_IN} value={Kirjaudu sisään}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={activation} key={DIGITAL_EXPERT_ACCESS} value={Digital Expert Access}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={contactus} key={ON} value={päällä}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={courses} key={INR} value={INR}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={courses} key={Last_Year} value={Edellinen vuosi}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={courses} key={Last_month} value={Edellinen kuukausi}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={courses} key={m} value={m}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={dynamic_msg} key={MSG0002} value={Tilauksesi päättyy [#PLACEHOLDER0] päivän kuluttua, ja sinulla on vain [#PLACEHOLDER1] kurssia jäljellä.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={dynamic_msg} key={MSG0003} value={Tilauksesi päättyy [#PLACEHOLDER0] päivän kuluttua, ja sinulla on vain [#PLACEHOLDER1] kurssia jäljellä.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={dynamic_msg} key={MSG0004} value={Tilauksesi päättyy [#PLACEHOLDER0] päivän kuluttua, ja sinulla on jäljellä vain [#PLACEHOLDER1] kurssia.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={dynamic_msg} key={MSG0006} value={Tilauksesi päättyy [#PLACEHOLDER0] päivän kuluttua}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={dynamic_msg} key={MSG0062} value={Sri Lanka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={error_messages} key={VALID_EMAIL} value={Kelvollinen sähköpostiosoite.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={loginPage} key={Dentist} value={Hammaslääkäri}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={loginPage} key={GET_STARTED} value={Näin pääset alkuun!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={loginPage} key={STARTED} value={Näin pääset alkuun}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={minutes_ago} value={minuuttia sitten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={minutes} value={minuuttia}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={minute} value={minuutti}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={months_ago} value={kuukautta sitten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={months} value={kuukautta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={mycourses} key={seconds} value={sekunnissa}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={settings} key={DIGITAL_EXPERT} value={Digital Expert}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={settings} key={GE_Healthcare} value={© 2021 GE Healthcare}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={sideMenu} key={ENTERPRISE} value={Enterprise}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={sideMenu} key={KOL} value={KOL}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={viewRequest} key={Contact} value={Ota yhteyttä}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={Contact_GE} key={Expert_Application_Training} value={Formation aux applications dispensée par des experts}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={ALMOST_DONE} value={Vous avez presque terminé. Veuillez configurer votre compte.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={BAD} value={Mauvaise}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={CONTINUE} value={Continuer}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={CREATE_PASSWORD} value={Créer un mot de passe}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={GET_STARTED_HEADING} value={Parfait, nous pouvons commencer.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={INVALID_ACCOUNT} value={Compte non valide. Pour obtenir de l'aide, veuillez contacter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={MOBILE_NUMBER} value={Numéro de téléphone portable}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={TERMS_OF_USE} value={les conditions générales d'utilisation de GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={User_Language} value={Langue préférée de l'utilisateur*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={account} key={User_Language} value={Langue préférée de l'utilisateur*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={activation} key={PLEASE_SELECT_THE_APPLICATION_Language} value={Veuillez sélectionner la langue d'application}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={activation} key={SUB_HEADING} value={Bénéficiez d'une formation au moment qui vous convient avec des professionnels de confiance.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={addTrainer} key={Comments} value={Commentaires}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={addTrainer} key={Submit_Request} value={Soumettre la demande}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={addTrainer} key={is_currently_a_Participant} value={est actuellement un participant. Voulez-vous poursuivre votre demande ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={addTrainer} key={is_currently_not_a_Participant} value={n'est actuellement pas un participant. Voulez-vous poursuivre votre demande ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={addTrainer} key={placeholder_text} value={Veuillez saisir une ou plusieurs adresse(s) e-mail}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={EARLIER_QUESTIONS} value={Questions précédentes}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={HOW_CAN_WE_HELP} value={Dites-nous de quelle manière nous pouvons vous aider}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={NO_EARLIER_QUESTIONS} value={Pas de questions précédentes}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={New_Replies} value={Nouvelles réponses}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={QUESTION_INFO} value={Nos experts répondent généralement dans un délai de 1 jour ouvrable}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={QUESTION} value={Quelle est votre question ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={SHOW} value={Afficher}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={SUBMIT_QUESTION} value={Soumettre la question}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={contactus} key={SUBMIT_REPLY} value={Soumettre la réponse}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={By_cancelling_or_rescheduling} value={le cours. Si vous annulez ou reprogrammez votre formation, nous la supprimerons immédiatement.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Continual_Education} value={Éligible dans le cadre des crédits de formation continue/développement professionnel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Describe_your_issue} value={Décrivez votre problème en détail afin que nous puissions vous aider}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={ENTER_WAITING_ROOM} value={Entrer dans la salle d'attente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={LOADING_INFO} value={Veuillez patienter...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Not_Now} value={Pas maintenant}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={OBJECTIVES_INFO} value={Ce que vous allez apprendre}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={SCHEDULE_A_SESSION} value={Programmez une session}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={SELECT_DATE_TIME} value={Sélectionnez la date et l'heure}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Selected} value={Date sélectionnée :}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Select} value={Sélectionner}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Start_Training} value={Commencer la formation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={Starts_in} value={Commence dans}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={courses} key={VIEW_FULL_BIO} value={Afficher la biographie complète}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={10053} value={L'UMR existe déjà pour cet utilisateur, une approbation de l'UMR est requise pour compléter le processus d'enregistrement. Veuillez contacter l'administrateur GE.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0008} value={Il ne reste plus que [#PLACEHOLDER0] cours avant l'expiration de votre abonnement.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0020} value={Le membre de l'équipe est en mesure de suivre la formation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0021} value={Le membre de l'équipe est en mesure de dispenser la formation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0021} value={Le membre de l'équipe est en mesure de dispenser la formation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0022} value={Le membre de l'équipe est en mesure de suivre et de dispenser la formation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0023} value={Le membre de l'équipe est en mesure de suivre la formation et de gérer un compte}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0027} value={Vous avez utilisé tous les cours qui vous ont été attribuées}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={MSG0063} value={Centre de maintenance/Ligne téléphonique de GE aux États-Unis}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={dynamic_msg} key={nocodeYet19row} value={Le membre de l'équipe est en mesure de dispenser la formation et de gérer un compte}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={edition} key={ENTERPRISE_ONLY} value={Enterprise uniquement}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={edition} key={FINISH_SETUP} value={Terminer la configuration}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={error_messages} key={DIGITS_VALIDATION} value={Le numéro de téléphone portable doit comporter 10 chiffres}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={error_messages} key={PHONE_NUMBER_REQUIRED} value={Un numéro de téléphone portable est requis.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={home} key={CONTACT_US_AT} value={Contactez-nous à l'adresse suivante :}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={home} key={UPDATED_TOOL_AVAILABLE} value={Mettre à jour l’outil de connectivité}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={home} key={UPDATE_APP} value={Mettre à jour l'application}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={home} key={UPDATE_DIGITAL_EXPERT_CONNECTIVITY_TOOL_NOW} value={Mettez à jour l’outil de connectivité Digital Expert dès maintenant.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Anesthetist} value={Anesthésiste/Anesthésiologiste}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Biomedical_Engineering} value={Ingénieur(e) biomédical(e)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Doctor} value={Médecin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Loading_users} value={Chargement des utilisateurs...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Mammographer} value={Technicien(ne) en mammographie}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={NO_ACCOUNT_FOUND} value={Vous ne voyez pas votre compte ? }</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Obstetrics} value={Obstétricien(ne)/Gynécologue}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Pharmacist} value={Pharmacien(ne)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Sorry_we_couldnt_find} value={Désolé, nous n'avons pas trouvé de compte correspondant à cette clé.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Surgeon} value={Chirurgien(ne)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Technologist} value={Technicien(ne)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={WHO_IS_TRAINING} value={À qui cette formation est-elle destinée ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={aka_Biomed} value={(ingénieur(e) biomédical(e), informaticien(ne))}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={operate_medical} value={J'utilise des équipements médicaux}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={ABSENT_TRAINING_TIME_CREDITED} value={Vous avez été marqué(e) comme absent(e) et du temps de formation a été crédité sur votre abonnement}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={CANCEL_COURSE} value={Annuler le cours}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={DISPUTE_COURSE_DESCRIPTION} value={Décrivez votre problème en détail afin que nous puissions vous aider le plus rapidement possible}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={DISPUTE_COURSE} value={Faire une réclamation concernant le cours}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={INFORMATION_BANNER_DESCRIPTION} value={Programmé pour le}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={PREASSESSMENT_INFO} value={Quelle est l'étendue de vos connaissances ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={RATING_INFO} value={Appuyez sur les étoiles pour accorder une note}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={SCHEDULED_FOR} value={Programmé pour le}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={SUBMITTING_FEEDBACK} value={Soumission des commentaires...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={SUBMIT_DISPUTE} value={Soumettre la réclamation}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={TRAINING_FEEDBACK_INFO} value={Que pourrions-nous améliorer ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={TRAINING_FEEDBACK_MESSAGE} value={Qu'avez-vous pensé de ce cours ? Avez-vous des suggestions pour un nouveau cours ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={an_hour_ago} value={il y a  heures}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={an_hour} value={dans une heure}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={hours_ago} value={il y a  heures}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={save_answers} value={Enregistrer les réponses}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={mycourses} key={years_ago} value={il y a plusieurs années}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={myteams} key={How_can_we_help_you} value={Comment pouvons-nous vous aider ?*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={myteams} key={Users} value={Utilisateurs}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={serviceshop} key={ISSUE} value={Décrivez votre problème en détail afin que nous puissions vous aider le plus rapidement possible}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={settings} key={DISPUTED} value={Réclamation envoyée}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={settings} key={FEEDBACK_INFO} value={Que pouvons-nous faire pour améliorer l'expérience de l'application ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={settings} key={PHONE_NUMBER} value={Numéro de téléphone}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={settings} key={SEND_FEEDBACK} value={Envoyez-nous vos commentaires}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={settings} key={SUBMIT_FEEDBACK} value={Soumettre des commentaires}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={supportSessions} key={GE_PERSONNEL} value={uniquement lorsque vous y êtes invité(e) par le personnel GE.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={supportSessions} key={TRAINER_NOT_AVAILABLE} value={ Dans le cas contraire, il se peut qu'aucun formateur ne soit pas disponible.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={transferTrainer} key={Are_you_sure} value={Voulez-vous vraiment effectuer cette action ?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={viewRequest} key={Transfer_Trainer_License} value={Transférer la licence de formateur}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={Contact_GE} key={Enter_Session} value={Geben Sie die Sitzung ein}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={ACCOUNT_EXISTS} value={Ihr Digital Expert Konto existiert bereits. Bitte melden Sie sich an.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={CLOSE} value={Schließen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={EIGHT_CHARACTERS_MAX} value={mindestens 8 Zeichen enthalten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={Language_successfully_saved} value={Sprache erfolgreich gespeichert}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={ONE_MORE_STEP} value={Nur noch ein Schritt...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={PERSONALISE_INFO} value={Letzter Schritt. Personalisieren Sie Ihr Erlebnis }</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={ROLE_INFO} value={Vielen Dank! Welche Rolle entspricht am ehesten Ihrer Stellenbezeichnung?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={START_LEARNING} value={Legen Sie los und bilden Sie sich fort!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={TERMS_AND_CONDITIONS_MODAL} value={Allgemeine Geschäftsbedingungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={TITLE} value={Ihre Stellenbezeichnung ist nicht dabei?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={activation} key={ACTIVATE} value={Aktivieren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={activation} key={ENTER_TEXT} value={Bitte geben Sie Ihren Aktivierungsschlüssel ein}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={activation} key={SWITCH_LANGUAGE} value={Sprache umschalten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={addTrainer} key={Send_copy_of_request_to} value={Eine Kopie der Anforderung senden an}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={addTrainer} key={already_has_a_Trainer_License} value={verfügt bereits über eine Schulungsleiterlizenz. Möchten Sie eine Anforderung für eine andere Person einreichen?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={addTrainer} key={already_has_a_request_pending} value={hat bereits eine ausstehende Anforderung für eine Schulungsleiterlizenz. Möchten Sie eine Anforderung für eine andere Person einreichen?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={coursecard} key={Browse_our_courses} value={Durchsuchen Sie unsere Kurse und buchen Sie noch heute Schulungen!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={CREDITS_BALANCE} value={Füllen Sie Ihr Guthaben auf}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={CREDIT} value={Finanzierung}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={ENTERPRISE_COURSE_NOT_SETUP} value={Der Enterprise Kurs ist nicht eingerichtet!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={ENTERPRISE_WAITING_ROOM_MESSAGE} value={Nutzen Sie den Enterprise Warteraum, und ein Kursleiter wird so bald wie möglich zu Ihnen stoßen.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={MEET_TRAINERS} value={Lerne die Schulungsleiter kennen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={Something_went_wrong} value={Es ist ein Fehler aufgetreten. Erneut versuchen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={TERMS_AND_CONDITIONS} value={Impressum/Nutzungsbedingungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={You_are_about_to_cancel} value={Sie sind im Begriff, eine Stornierung vorzunehmen.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={courses} key={ZERO_CREDITS_INFO} value={Sie haben alle Ihre Credits aufgebraucht und können keine Kurse buchen, für die Credits benötigt werden. Bitte wenden Sie sich an GE, um Ihr Guthaben aufzustocken.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={dynamic_msg} key={10003} value={Konto ist bereits vorhanden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={dynamic_msg} key={MSG0061} value={Bangladesch}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={edition} key={HEADING} value={Welche Version soll eingestellt werden?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={error_messages} key={NAME_REQUIRED} value={Der vollständige Name ist erforderlich.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={home} key={RENEW_SUBSCRIPTION} value={Verlängern Sie Ihr Abonnement.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={home} key={SUBSCRIPTION_EXPIRED} value={Ihr Abonnement ist abgelaufen!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={home} key={SUBSCRIPTION_REQUIRED_DESCRIPTION} value={Durchsuchen Sie unsere Kurse, für die Registrierung für Schulungen ist jedoch ein Abonnement erforderlich. Wenden Sie sich an Ihr GE Team, um ein Abonnement einzurichten.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={home} key={SUBSCRIPTION_TO_START} value={Abonnement muss noch gestartet werden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={As_soon_as} value={Sobald Sie eine Verbindung hergestellt haben, können wir beginnen.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={Conditions_Modal_second} value={Durch die Nutzung der GE Healthcare App, einschließlich des Zugriffs auf Dienste über die GE Healthcare App, bestätigen und erklären Sie sich mit Folgendem einverstanden: (i) Sie sind ein GE Healthcare Kunde oder ein Beauftragter, der zur Nutzung der Dienste berechtigt ist; und (ii) die gesamte Nutzung der GE Healthcare App und der Dienste unterliegt der jeweiligen Servicevereinbarung zwischen GE Healthcare und dem GE Healthcare Kunden. Wenn Sie dem Vorstehenden nicht zustimmen, ist Ihnen die Nutzung der GE Healthcare App für den Zugriff auf die Dienste untersagt.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={Orthodontist} value={Kieferorthopäde}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={PLEASE_SELECT_THE_ROLE} value={Bitte wählen Sie die Rolle aus, die am ehesten Ihrer Stellenbezeichnung entspricht.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={Please_try_again} value={Bitte versuchen Sie es erneut.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={SELECT_INFO} value={Tippen Sie auf Ihren Namen, um sich anzumelden, oder fügen Sie ein Konto hinzu}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={Something_went_wrong} value={Es ist ein Fehler aufgetreten.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={before_trying_again} value={bevor Sie es erneut versuchen können.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={loginPage} key={medical_systems_and_staff} value={Ich verwalte medizinische Systeme und leite Mitarbeiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={Advance} value={fortgeschritten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={DOWNLOAD_SCORECARD} value={Vielen Dank, dass Sie Ihren Lernfortschritt verfolgen. Laden Sie Ihre Punkteliste herunter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={ERROR_MESSAGE} value={Bei Ihrem Formular ist ein Problem aufgetreten.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={INFORMATION_BANNER_TITLE_AGO} value={Machen Sie sich bereit! Ihr Kurs beginnt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={INFORMATION_BANNER_TITLE} value={Machen Sie sich bereit! Ihr Kurs beginnt in}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={NO_COURSES_COMPLETED} value={Keine abgeschlossenen Kurse}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={NO_REQUIREMENTS} value={Keine Anforderungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={POST_ASSESSMENT_INFO} value={Überprüfen Sie, was Sie alles gelernt haben.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={TRAINER} value={Schulungsleiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={TRAINER} value={Schulungsleiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={a_day} value={einem Tag}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={a_minute} value={einer Minute}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={a_month} value={einem Monat}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={mycourses} key={hours} value={Stunden}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={myteams} key={How_can_I_add} value={Wie kann ich eine Person wieder zur Liste der unterstützten Personen hinzufügen?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={myteams} key={No} value={Nein}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={myteams} key={Trainers} value={Schulungsleiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={notifications} key={NO_EARLIER_NOTIFICATIONS} value={Keine früheren Benachrichtigungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={notifications} key={NO_NEW_NOTIFICATIONS} value={Keine neuen Benachrichtigungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={serviceshop} key={CONTINUE} value={Mit der Zahlung fortfahren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={serviceshop} key={REDIRECT} value={Sie werden zum Service-Shop weitergeleitet, um die Zahlung abzuschließen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={settings} key={COMPLETED} value={Abgeschlossen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={settings} key={UPCOMING} value={Anstehende Schulungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={settings} key={YOU_ABLE_TO} value={Sie können an Schulungen teilnehmen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={settings} key={take_and_give} value={Sie können Schulungen leiten und an Schulungen teilnehmen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={settings} key={training_and_manage} value={Sie können an Schulungen teilnehmen und Konten verwalten}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={sideMenu} key={NOTIFICATIONS} value={Benachrichtigungen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={supportSessions} key={ENTER_SESSION} value={Nehmen Sie an dieser Sitzung}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={supportSessions} key={ERROR_MESSAGE} value={Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={supportSessions} key={SELECT_MODALITY} value={Bitte wählen Sie Ihre Modalität aus}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={transferTrainer} key={New_Trainers_full_Name} value={Vollständiger Name des neuen Schulungsleiters*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={transferTrainer} key={Transfering_the_license} value={Durch die Übertragung der Lizenz werden die Schulungsleiterfunktionen entfernt von}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={viewRequest} key={Cancel_Request} value={Anforderung abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={viewRequest} key={undo_this_request} value={Diese Anforderung kann nicht rückgängig gemacht werden.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={accessHistory} key={Access_History} value={Cronologia degli accessi}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={accessHistory} key={Access} value={- Cronologia degli accessi}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={accessHistory} key={Loading_history} value={Caricamento cronologia in corso...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={accessHistory} key={No_Access_History_Available} value={Cronologia degli accessi non disponibile}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={account} key={Buy_INR} value={Acquista | INR}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={account} key={LOWERCASE} value={1 lettera minuscola}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={account} key={UPPERCASE} value={1 lettera maiuscola}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={activation} key={KEY_INFO} value={Il campo della chiave distingue tra lettere maiuscole e minuscole}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={activation} key={changing_language_afterwards} value={*È necessario eseguire la disinstallazione/reinstallazione per cambiare la lingua in un secondo momento}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={contactus} key={PREVIOUS} value={precedente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={contactus} key={SENDING} value={Invio in corso...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={coursecard} key={Popular_Resources} value={Le risorse più apprezzate}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={courses} key={ABOUT_THIS_COURSE} value={Informazioni sul corso}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={courses} key={Connect_Equipment} value={Collegamento all'apparecchiatura}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={courses} key={PAID} value={A pagamento}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={courses} key={View} value={Visualizza}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={dynamic_msg} key={MSG0018} value={La richiesta di trasferimento della licenza trainer è stata inviata correttamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={dynamic_msg} key={MSG0024} value={Il membro del team può impartire corsi di formazione, seguire i corsi di formazione e gestire gli account}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={home} key={UPDATE_AVAILABLE} value={Aggiornamento disponibile.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={loginPage} key={HEADING} value={Ti diamo il benvenuto}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={ABOUT_THIS_COURSE} value={Informazioni sul corso}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={COURSE_CREDIT_PENDING} value={Credito del corso in sospeso}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={HOW_WAS_TRAINING} value={Com'è stata la tua esperienza di formazione?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={NO_DESCRIPTION} value={Nessuna descrizione}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={PREASSESSMENT_TAKEN} value={Grazie per aver messo alla prova le tue conoscenze}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={SESSION_SCHEDULED} value={Sessione programmata}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={Scheduled} value={Programmato}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={VIEWS} value={visualizzazioni}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={WE_MISSED_YOU} value={Abbiamo sentito la tua mancanza!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={mycourses} key={days} value={giorni}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={myteams} key={Loading_Team_members} value={Caricamento membri del team in corso...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={sideMenu} key={ACCOUNT} value={Account}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={viewRequest} key={Loading_Details} value={Caricamento dettagli in corso...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={viewRequest} key={View_access_history} value={Visualizza la cronologia degli accessi}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={accessHistory} key={Date_Time} value={Dato/klokkeslett}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={account} key={Buy_Credit} value={Kjøp | 1 kredittpoeng}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={courses} key={AVAILABLE_OPENINGS} value={Tilgjengelige åpninger}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={courses} key={CREDITS} value={1 kredittpoeng}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={courses} key={NO_COURSES_AVAILABLE} value={Ingen kurs er tilgjengelige!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={courses} key={Started} value={Har startet}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={mycourses} key={Basic} value={Grunnleggende}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={myteams} key={Manage_Access} value={Administrer tilgang}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={resources} key={NO_VIDEOS_AVAILABLE} value={Ingen videoer er tilgjengelige}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={settings} key={AVAILABLE} value={Tilgjengelig}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={sideMenu} key={MY_TEAM} value={Mine medarbeidere}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Norwegian} Feature={viewRequest} key={Request_Trainer_License} value={Send forespørsel om instruktørlisens}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={accessHistory} key={Requestor} value={Osoba wnioskująca}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={account} key={CHANGING_USER_LANGUAGE} value={* Późniejszych zmian języka użytkownika można dokonać wyłączenie w ramach ustawień konta użytkownika korzystającego z adresu w domenie gehealthcare.com.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={account} key={EMAIL_INFO} value={Adres e-mail będzie stanowił Twoją nazwę użytkownika na potrzeby produktów GE Healthcare. Na ten adres mailowy będziemy przesyłać potwierdzenia i przypomnienia dotyczące szkoleń.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={account} key={FULL_NAME} value={Pełne imię i nazwisko}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={account} key={VIEW_ALL} value={Wyświetl wszystko}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={addTrainer} key={Full_Name} value={Pełne imię i nazwisko*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={addTrainer} key={Start_New_Trainer_License_Request} value={Rozpocznij tworzenie wniosku o udzielenie nowej licencji szkoleniowca}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={contactus} key={AT} value={o godz.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={contactus} key={CHOOSE_MODALITY} value={Którego rodzaju obrazowania dotyczy Twoje pytanie?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={contactus} key={FAILED_TO_SEND} value={Wysyłanie nie powiodło się}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={coursecard} key={Course_Booked} value={Pomyślnie zarezerwowano termin kursu}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={coursecard} key={Enter_the_Enterprise} value={Wejdź do poczekalni platformy Enterprise lub już dziś zaplanuj sesję szkoleniową w ramach platformy Enterprise!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={coursecard} key={Go_to_Enterprise} value={Przejdź do platformy Enterprise}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={coursecard} key={Upcoming_training} value={Nadchodzące szkolenie}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={courses} key={ALL} value={Wszystkie}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={courses} key={AVAILABLE_CREDITS} value={dostępne(-ych) punkty(-ów)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={courses} key={Absent} value={Nieobecność}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={courses} key={INVALID_INFO} value={Nieprawidłowa placówka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={courses} key={NEED_HELP} value={Potrzebujesz pomocy już teraz?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={dynamic_msg} key={10054} value={Aktywacyjna wiadomość e-mail została wysłana do użytkownika platformy Digital Expert}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={dynamic_msg} key={10055} value={Powitalna wiadomość e-mail została wysłana do użytkownika platformy Digital Expert}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={dynamic_msg} key={ERR0015} value={Nie można pobrać adresu URL programu VSee}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={error_messages} key={INVALID_NUMBER} value={Nieprawidłowy numer}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={home} key={SUBSCRIPTION_EXPIRED_INFO} value={Skontaktuj się z właściwym zespołem firmy GE, aby odnowić subskrypcję.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={Admin} value={Pracownik administracji}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={Conditions_Modal} value={Niniejsza aplikacja Digital Expert firmy GE Healthcare („aplikacja GE Healthcare”) jest przeznaczona do użytku jedynie przez klientów firmy GE Healthcare („klienci firmy GE Healthcare”) oraz osoby przez nich wyznaczone i upoważnione do uzyskania dostępu do treści i usług w ramach narzędzia Digital Expert firmy GE Healthcare („usługi”).}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={For_security_reasons} value={Ze względów bezpieczeństwa trzeba będzie chwilę odczekać}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={Please_contact_your_GE} value={Skontaktuj się z właściwym zespołem firmy GE, aby skonfigurować nowy klucz.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={Please_contact_your} value={Skontaktuj się z właściwym zespołem firmy GE, aby skonfigurować klucz.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={Wifi_needs} value={Połączenie Wi-Fi wymaga działania użytkownika.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={loginPage} key={troubleshoot_and_fix_equipment} value={Rozwiązuję problemy związane ze sprzętem i naprawiam urządzenia}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={BOOKED_ON} value={Zarezerwowany dnia}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={DISPUTE_PROGRESS} value={Trwa rozpatrywanie zgłoszenia}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={DISPUTE_RESOLVED} value={Zgłoszenie rozpatrzone}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={Intermediate} value={Średnio zaawansowany}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={MODERATE} value={Średnio zaawansowany}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={NOVICE} value={Nowy uczestnik}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={TRAINING_COMPLETE_TIME_CREDITED} value={Szkolenie zostało oznaczone jako zakończone, a czas na nie poświęcony został uwzględniony w Twojej subskrypcji.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={mycourses} key={WAY_TO_GO} value={Jeszcze wiele przed Tobą!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={myteams} key={Action} value={Działanie}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={myteams} key={Send_Support_Request} value={Wyślij zgłoszenie dotyczące pomocy technicznej}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={notifications} key={EARLIER} value={Wcześniejsze}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={settings} key={ABOUT} value={Informacje o oprogramowaniu}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={settings} key={TOP_COURSE_TAKEN} value={Ukończone najpopularniejsze kursy}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={settings} key={give_training_and_take_training} value={Możesz prowadzić szkolenia, brać udział w szkoleniach oraz zarządzać kontami.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={supportSessions} key={ACCOUNT_NOT_CONFIGURED} value={Konto nie zostało jeszcze skonfigurowane!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={supportSessions} key={ENTER_SUPPORT_SESSION} value={Przejdź do sesji z pracownikiem działu pomocy technicznej}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={supportSessions} key={START_SESSION} value={Rozpocznij sesję z pracownikiem działu pomocy technicznej}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={supportSessions} key={SUBSCRIPTION_EXPIRED_INFO} value={Twoja subskrypcja wygasła! Odnów subskrypcję, aby przejść do sesji z pracownikiem działu pomocy technicznej.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={transferTrainer} key={Requested} value={Wniosek przesłano}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={viewRequest} key={Grant_Admin_Access} value={Udziel dostępu na poziomie administratora}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={viewRequest} key={Pending_Account_Request} value={Oczekujący wniosek o utworzenie konta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={viewRequest} key={Remove_Admin_Access} value={Pozbaw dostępu na poziomie administratora}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={viewRequest} key={Remove_Participant_Access} value={Pozbaw dostępu na poziomie uczestnika}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Polish} Feature={viewRequest} key={Remove_Trainer_Access} value={Pozbaw dostęp na poziomie szkoleniowca}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={Contact_GE} key={GE_COURSE} value={FORMAÇÃO DA GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={account} key={PASSWORD_MUST_CONTAIN} value={A sua palavra-passe tem de conter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={account} key={TERMS_AND_CONDITIONS} value={Aceito os termos e condições da GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={contactus} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={contactus} key={REPLY} value={responder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={contactus} key={RETRY} value={Tentar novamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={courses} key={Download_your_scorecard} value={Transfira a sua tabela de indicadores}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={dynamic_msg} key={MSG0005} value={A sua subscrição expira dentro de [#PLACEHOLDER0] dias.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={home} key={SUBSCRIPTION_REQUIRED} value={É necessária uma subscrição}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={home} key={SUBSCRIPTION_START_DATE} value={A sua subscrição será iniciada em}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={loginPage} key={Cardiologist} value={Cardiologista}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={loginPage} key={Radiologist} value={Radiologista}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={loginPage} key={Sorry_this_key} value={Lamentamos, mas esta chave já está a ser utilizada.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={mycourses} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={mycourses} key={BEGINNER} value={Principiante}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={mycourses} key={EXPERT} value={Especialista}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={settings} key={Apply} value={Candidatar-se}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={settings} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={settings} key={RANK} value={Classificação}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={sideMenu} key={DASHBOARD} value={Painel de informações}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={sideMenu} key={LOGOUT} value={Encerrar sessão}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={accessHistory} key={Request_type} value={Tipo de solicitação}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={account} key={SPECIAL_CHARACTER} value={1 caractere especial}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={coursecard} key={Be_more_Do_more} value={Seja mais. Faça mais.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={courses} key={REGISTER} value={Fazer o registro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={dynamic_msg} key={ERR0104} value={Solicitação incorreta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={home} key={UPDATE_DESCRIPTION} value={Atualize o Digital Expert agora mesmo para experimentar os nossos mais recentes recursos e correções de erros.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={loginPage} key={Sonographer} value={Técnico em ultrassonografia}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={loginPage} key={aka_Nurse} value={Também conhecido como Enfermeiro, Médico}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={loginPage} key={aka_Sonographer} value={Também conhecido como Técnico em ultrassonografia, Radiologista}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={mycourses} key={THANKS_FOR_RESPONSE} value={Agradecemos pela sua resposta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={mycourses} key={submit_a_dispute} value={Enviar uma contestação}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={resources} key={NO_DOCUMENTS_AVAILABLE} value={Não existem documentos disponíveis}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={settings} key={VIEW_TOP_COURSES} value={Exibir os principais cursos realizados}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese(Brazil)} Feature={viewRequest} key={Request} value={Solicitação}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={Contact_GE} key={Invalid_Vsee_Code} value={Código de sala de VSee no válido. Póngase en contacto con el servicio de asistencia de GE.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={Contact_GE} key={With_GE_Trainer} value={con un instructor de GE}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={accessHistory} key={Request_status} value={Estado de la solicitud}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={AND} value={y la}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={DE_SUPPORT_TEAM} value={el equipo de asistencia técnica de Digital Expert.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={EMAIL_ADDRESS} value={Dirección de correo electrónico}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={KOL_COURSE} value={CURSO DE KOL}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={MOBILE_INFO} value={Su número de teléfono se utilizará en caso de que un instructor necesite ponerse en contacto con usted.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={NAME_EXAMPLE} value={{por ejemplo: John Smith}}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={NUMERIC_DIGIT} value={1 dígito numérico}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={account} key={SUPPORT_TEAM} value={el equipo de asistencia técnica.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={activation} key={ASSISSTANCE_TEXT} value={Para obtener ayuda, póngase en contacto con Digital.Expert@ge.com.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={activation} key={ENTER_KEY} value={Introduzca la clave}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={activation} key={Please_try_again} value={Inténtelo más tarde.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={addTrainer} key={Email_address} value={Dirección de correo electrónico*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={addTrainer} key={New_Trainer_License_Request} value={Nueva solicitud para obtener una licencia de formador}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={addTrainer} key={bottomlabel_text} value={Introduzca una lista de direcciones de correo electrónico separada por comas.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={ASK_A_QUESTION} value={Formular una pregunta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={LAST_REPLY_BY} value={Última respuesta realizada por}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={NEXT} value={Siguiente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={NO_NEW_REPLIES} value={No hay nuevas respuestas}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={REPLIES} value={respuestas}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={coursecard} key={Recommended_for_you} value={Recomendados para usted}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={courses} key={INSTRUCTOR} value={Instructor}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={courses} key={INVALID_MESSAGE} value={No se puede completar la acción. Póngase en contacto con el equipo de asistencia técnica.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={courses} key={Thanks_for_tracking} value={Gracias por realizar un seguimiento de su conocimiento.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={10001} value={Se ha registrado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={10022} value={Se requiere la autorización de UMR para completar el proceso de registro. Póngase en contacto con el administrador de GE.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={ERR0003} value={Se ha producido un error interno del servidor}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0013} value={Se ha promocionado correctamente a administrador}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0014} value={La solicitud para obtener licencia de formador se ha enviado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0014} value={La solicitud para obtener licencia de formador se ha enviado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0015} value={El acceso de administrador se ha revocado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0015} value={El acceso de administrador se ha revocado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0016} value={La solicitud para revocar el acceso de participante se ha enviado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0017} value={La solicitud para revocar el acceso de formador se ha enviado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={dynamic_msg} key={MSG0115} value={La solicitud se ha cancelado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={error_messages} key={PLEASE_ENTER} value={Introduzca una dirección de correo electrónico válida}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={home} key={RENEW_SUBSCRIPTION_INFO} value={Póngase en contacto con su equipo de GE para renovar su suscripción antes del}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={home} key={UPDATE_CONNECTIVITY_TOOL} value={Actualizar herramienta de conectividad}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={home} key={WELCOME_BACK} value={Le damos la bienvenida de nuevo.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={loginPage} key={Business_Management} value={Responsable de gestión empresarial}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={loginPage} key={IT} value={Personal informático}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={loginPage} key={Nurse_Unit_Manager} value={Responsable de la unidad de enfermería}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={loginPage} key={Procurement} value={Responsable de adquisiciones/suministros}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={loginPage} key={Roles} value={Funciones}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={ASSESSMENTS_MODAL_INFO} value={Califique sus conocimientos en una escala de estrellas, donde 1 estrella es inexperto y 7 estrellas es experto.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={ERROR_INFO} value={Consulte los detalles resaltados a continuación.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={NO_COURSES_SCHEDULED} value={No hay cursos programados}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={NO_QUESTIONS_AVAILABLE} value={No hay preguntas disponibles}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={STARTS} value={Comienza}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={mycourses} key={TEST_KNOWLEDGE} value={Ponga a prueba sus conocimientos.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={myteams} key={Contact_GE_Support} value={Póngase en contacto con el servicio de asistencia técnica de GE.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={myteams} key={Please_check_your_email} value={! Consulte su correo electrónico para obtener más información sobre su solicitud.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={myteams} key={Request_cancelled_successfully} value={La solicitud se ha cancelado correctamente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={notifications} key={NO_EMAIL_REQUEST} value={¿No ha visto la solicitud en el correo electrónico?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={resources} key={DOCUMENTS} value={Documentación}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={settings} key={EMAIL} value={Correo electrónico}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={settings} key={FEEDBACK_HEADING} value={¿Qué tal lo estamos haciendo?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={settings} key={Role} value={Función}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={settings} key={SUBSCRIPTION_EXPIRY} value={Suscripción a punto de caducar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={sideMenu} key={SUPPORT} value={Asistencia técnica}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={supportSessions} key={CONNECT_SUPPORT} value={Póngase en contacto con el equipo de asistencia técnica de Digital Expert.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={supportSessions} key={SUPPORT} value={Asistencia técnica}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={transferTrainer} key={Transfer_Trainer_License_Request} value={Transferir solicitud para obtener una licencia de formador}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={transferTrainer} key={Transfer_to_email_address} value={Transferir a la dirección de correo electrónico*}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={viewRequest} key={No_information_found} value={No se ha encontrado información}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={contactus} key={ASKED} value={Ställda frågor}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={courses} key={FREE} value={Kostnadsfri}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={loginPage} key={Physicist} value={Sjukhusfysiker}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={loginPage} key={START_TRAINING} value={Kom igång med en utbildning som är anpassad till ditt schema och leds av proffs som du litar på.}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={mycourses} key={RESCHEDULE_COURSE} value={Ändra schemaläggning för kurs}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={mycourses} key={SOMETHING_NOT_RIGHT} value={Är det något som inte stämmer?}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={settings} key={NO_TOP_COURSES} value={Inga av de populäraste kurserna är tillgängliga}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text red'>Language={Sweedish} Feature={viewRequest} key={Remove_Access} value={Ta bort åtkomstsbehörighet}</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>30:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Verify  which language key is having highest number of characters</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@ge.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>12:35:29 pm</td>
+        <td>
+          <span class='badge white-text green'>Get_HighestLength_String_of_Particular_LanguageKey "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Feature.International_DE_APP_HighestStringLength</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Feature.International_DE_APP_HighestStringLength</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:28:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Testcase TC3500 Verify DE_APP with highest number of characters string </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">TesterName=brahmendra.jayaraju@ge.com</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>TesterName=brahmendra.jayaraju@ge.com</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>12:28:44 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Testcase TC3500 Verify DE_APP with highest number of characters string </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 16, 2024 12:28:44 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 16, 2024 12:35:29 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>1</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'><b>1</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>484</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Testcase TC3500 Verify DE_APP with highest number of characters string ":404.564
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>TesterName=brahmendra.jayaraju@ge.com</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Feature.International_DE_APP_HighestStringLength</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 1,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 1,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 484
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

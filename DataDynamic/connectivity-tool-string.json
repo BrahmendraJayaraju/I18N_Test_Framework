@@ -1,0 +1,37 @@
+{
+"configuredSystems":{
+    "equipment_info":"The following equipment is configured for your account. Don’t see the equipment?",
+    "contact_GE":"Please contact Your GE Team",
+    "i_understand_and_agree":"I understand and agree."
+},
+"equipments":{
+    "add_systems_text":"Add system to enable Enterprise connection on this tablet"
+},
+"addMultiVendor":{
+    "please_enter_valid_system_id":"Please enter Valid System Id",
+    "system_id_max_char":"System ID shouldn't exceed 255 characters",
+    "please_select_a_product":"Please select a product",
+    "please_enter_the_alias":"Please enter the Alias",
+    "alias_maxed_characters":"Alias shouldn't exceed 255 characters",
+    "please_enter_the_os_version":"Please enter the OS Version",
+    "please_enter_a_valid_kvm_ip_address":"Please enter a valid KVM IP Address",
+    "please_enter_kvm_user_name":"Please enter KVM User name",
+    "please_enter_kvm_mac_id":"Please enter KVM Mac ID",
+    "please_enter_a_valid_kvm_mac_id":"Please enter a valid KVM Mac ID",
+    "please_enter_kvm_port_number":"Please enter KVM Port Number",
+    "port_number_must_be_an_integer":"Port Number must be an integer",
+    "please_enter_kvm_token":"Please enter KVM Token",
+    "please_enter_kvm_password":"Please enter KVM Password",
+    "os_version":"OS Version",
+    "kvm_connectivity_information":"KVM Connectivity Information",
+    "kvm_ip_address":"KVM IP Address",
+    "kvm_username":"KVM Username",
+    "kvm_password":"KVM Password",
+    "KVM_Mac_ID":"KVM Mac ID",
+    "KVM_Port_Number":"KVM Port Number",
+    "KVM_Token":"KVM Token"},
+"equipment":{
+    "Confidential_Information":"Screens may contain confidential information. Please ensure safe and proper viewing conditions. If adverse conditions appear, end remote sharing and/or control accordingly.",
+    "equipment":"equipment"
+    }
+}

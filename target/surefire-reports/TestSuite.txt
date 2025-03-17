@@ -1,0 +1,264 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 13, Errors: 0, Skipped: 0, Time elapsed: 1.192 s <<< FAILURE! - in TestSuite
+deapp.International_DE_App.verify_English_Language  Time elapsed: 0.012 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_English_Language(International_DE_App.java:53)
+
+deapp.International_DE_App.verify_Danish_Language  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Danish_Language(International_DE_App.java:86)
+
+deapp.International_DE_App.verify_German_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_German_Language(International_DE_App.java:69)
+
+deapp.International_DE_App.verify_Dutch_Language  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Dutch_Language(International_DE_App.java:101)
+
+deapp.International_DE_App.verify_Finnish_Language  Time elapsed: 0 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Finnish_Language(International_DE_App.java:117)
+
+deapp.International_DE_App.verify_French_Language  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_French_Language(International_DE_App.java:133)
+
+deapp.International_DE_App.verify_Italian_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Italian_Language(International_DE_App.java:152)
+
+deapp.International_DE_App.verify_Norwegian_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Norwegian_Language(International_DE_App.java:167)
+
+deapp.International_DE_App.verify_Spanish_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Spanish_Language(International_DE_App.java:184)
+
+deapp.International_DE_App.verify_swedish_Language  Time elapsed: 0 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_swedish_Language(International_DE_App.java:201)
+
+deapp.International_DE_App.verify_Eurpoean_Portuguese_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Eurpoean_Portuguese_Language(International_DE_App.java:218)
+
+deapp.International_DE_App.verify_Polish_Language  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Polish_Language(International_DE_App.java:236)
+
+deapp.International_DE_App.verify_Portuguese_Brazil_Language  Time elapsed: 0 s  <<< FAILURE!
+java.lang.Error: 
+Unresolved compilation problems: 
+	XSSFWorkbook cannot be resolved to a type
+	XSSFWorkbook cannot be resolved to a type
+	XSSFSheet cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONParser cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+	Assert cannot be resolved
+	JSONObject cannot be resolved to a type
+	JSONObject cannot be resolved to a type
+	Assert cannot be resolved
+
+	at deapp.International_DE_App.verify_Portuguese_Brazil_Language(International_DE_App.java:256)
+

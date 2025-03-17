@@ -1,0 +1,15 @@
+{
+    "Resend_Certificate": {
+        "resend.certificate.congratulations": "Gratulerer!",
+        "resend.certificate.dear": "Hei,",
+        "resend.certificate.body": "Gratulerer med fullførelsen",
+        "resend.certificate.team": "GE Digital Expert-teamet",
+        "resend.certificate.ge": "GE Healthcare",
+        "resend.certificate.completion": "SERTIFIKAT FOR FULLFØRELSE",
+        "resend.certificate.awarded": "Tildelt til",
+        "resend.certificate.successful": "for fullførelse av",
+        "resend.certificate.on": "den",
+        "resend.certificate.subject": "Kurssertifikat.",
+        "resend.certificate.file": "Certificate.pdf"
+    }
+}

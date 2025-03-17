@@ -1,0 +1,191 @@
+{
+"addEquipment":
+{
+    "new_system": "Nieuw systeem",
+    "edit_system": "Systeem bewerken",
+    "a_problem_occurred": "Er is een probleem opgetreden met uw formulier",
+    "please_see_details_highlighted_below": "Zie de gemarkeerde informatie hieronder.",
+    "something_went_wrong": "Er is iets fout gegaan",
+    "product_information": "Productinformatie",
+    "no_products_available_to_configure": "Er zijn geen producten beschikbaar om te configureren",
+    "enable_remote_scan" : "Remote Scan inschakelen",
+    "the_name_by_which_the_customer_will_recognize_the_system": "De naam waarmee de klant het systeem herkent",
+    "connectivity_information": "Connectiviteitsinformatie",
+    "please_wait": "Een ogenblik geduld. Het duurt langer dan verwacht.",
+    "delete_system": "Systeem verwijderen",
+    "system_id": "Systeem-ID",
+    "product_name": "Productnaam",
+    "alias": "Alias",
+    "ip_address": "IP-adres",
+    "system_username": "Gebruikersnaam voor het systeem",
+    "system_password": "Wachtwoord voor het systeem",
+    "show": "TONEN",
+    "adding": "Bezig met toevoegen...",
+    "add_system": "Systeem toevoegen",
+    "updating_changes": "Wijzigingen bijwerken...",
+    "save_changes": "Wijzigingen opslaan",
+    "please_enter_valid_system_id":"Voer een geldig systeem-ID in",
+    "please_select_a_product":"Selecteer een product",
+    "please_enter_the_alias_name":"Voer de naam van de alias in",
+    "please_enter_a_valid_ip_address":"Voer een geldig IP-adres in",
+    "please_enter_user_name":"Voer uw gebruikersnaam in",
+    "please_enter_password":"Voer wachtwoord in",
+    "product_added_with_this_system_id":"Product toegevoegd met deze systeem-ID",
+    "no_product_image":"Geen productafbeelding"
+},
+"addMultiVendor":
+{
+   "please_enter_valid_system_id": "Voer een geldig systeem-ID in",
+    "system_id_max_char": "Systeem-ID mag niet langer zijn dan 255 tekens",
+    "please_select_a_product": "Selecteer een product",
+    "please_enter_the_alias": "Voer de alias in",
+    "alias_maxed_characters": "Alias mag niet langer zijn dan 255 tekens",
+    "please_enter_the_os_version": "Voer de versie van het besturingssysteem in",
+    "please_enter_a_valid_kvm_ip_address": "Voer een geldig KVM-IP-adres in",
+    "please_enter_kvm_user_name": "Voer uw KVM-gebruikersnaam in",
+    "please_enter_kvm_mac_id": "Voer KVM-Mac-ID in",
+    "please_enter_a_valid_kvm_mac_id": "Voer een geldig KVM-Mac-ID in",
+    "please_enter_kvm_port_number": "Voer KVM-poortnummer in",
+    "port_number_must_be_an_integer": "Poortnummer moet een geheel getal zijn",
+    "please_enter_kvm_token": "Voer KVM-token in",
+    "please_enter_kvm_password": "Voer KVM-wachtwoord in",
+    "os_version": "Versie besturingssysteem",
+    "kvm_connectivity_information": "Informatie KVM-connectiviteit",
+    "kvm_ip_address": "KVM-IP-adres",
+    "kvm_username": "KVM-gebruikersnaam",
+    "kvm_password": "KVM-wachtwoord",
+    "KVM_Mac_ID": "KVM-Mac-ID",
+    "KVM_Port_Number": "KVM-poortnummer",
+    "KVM_Token": "KVM-token"
+},
+"appHeader":
+{
+	"visible": "zichtbaar",
+    "hidden": "verborgen",
+    "GE_healthcare": "GE Healthcare"
+},
+
+
+"configuredSystems":
+{
+   "connecting": "Verbinden...",
+    "what_equipment_do_you_want_to_connect": "Met welke apparatuur wilt u verbinding maken?",
+    "equipment_is_configured_message": "De volgende apparatuur is geconfigureerd voor uw account. Ziet u de apparatuur die u zoekt niet?",
+    "contact_GE": "Neem contact op met uw GE-team",
+    "maximum_of_3_connections_are_allowed": "Er zijn maximaal 3 verbindingen toegestaan",
+    "loading_equipments_message": "Ik begrijp dat als ik verbinding maak, ik een gebruiker mogelijk in staat stel de apparaatschermen en alle informatie die deze schermen bevatten op afstand te bekijken en te bedienen. Ik blijf verantwoordelijk voor de veiligheid van de patiënt en de apparatuur en begrijp hoe ik de externe verbinding kan uitschakelen in het geval van ongewenste handelingen van buitenaf.",
+    "no_equipment": "Er is nog geen apparatuur ingesteld. Neem contact op met het GE-team",
+    "Cnt": "Verbinden",
+    "Select_equipment_to_connect": "Selecteer de apparatuur die u wilt aansluiten",
+    "equipment_info": "De volgende apparatuur is geconfigureerd voor uw account. Ziet u de apparatuur niet?",
+	"i_understand_and_agree": "Ik begrijp het en ga akkoord."
+}
+,
+
+"equipments":
+{
+    "logout": "Afmelden",   
+    "equipment": "Apparatuur",
+    "add_system": "Systeem toevoegen",
+    "device_connected": "Apparaat is verbonden!",
+    "ok": "Ok",
+    "device_not_connected": "Apparaat is niet aangesloten",
+    "update_system_setting": "De systeeminstellingen moeten worden bijgewerkt.",
+    "display_equipment" : "Geeft de apparatuur weer",    
+    "test_connection" : "Test de verbinding",
+    "edit": "Bewerken",
+    "no_eqipument_text": "Er is nog geen apparatuur ingesteld",
+    "add_systems_text": "Voeg systeem toe om Enterprise-verbinding op deze tablet in te schakelen",
+    "Confidential_Information": "Schermen kunnen vertrouwelijke informatie bevatten. Zorg voor veilige en juiste weergaveomstandigheden. Beëindig het delen op afstand en/of de bediening dienovereenkomstig als er sprake is van ongunstige omstandigheden.",
+	"Header": "materiaal"
+}
+,
+
+"otpConfiguration":
+{
+   "configure_equipment": "Configureer apparatuur voor peer-to-peer-toegang",
+    "error_header": "Sorry, wij herkennen dat wachtwoord niet",
+    "error_subheader": "Voer een geldig wachtwoord in",
+    "otp_label_text": "Voer het Enterprise-wachtwoord in",
+    "otp_input_errorMessage": "Voer een geldig Enterprise-wachtwoord in",
+    "signing_in": "Bezig met aanmelden...",
+    "sign_in": "Aanmelden"
+},
+
+
+
+    "Console Screen" :{
+       "POPUP_HEADING" : "Time-out van sessie naderend",
+        "POPUP_TEXT_IN": "Over",
+        "POPUP_TEXT_INACTIVITY_INFO": "minuten wordt de Digital Expert-toepassing uitgeschakeld als gevolg van inactiviteit op de tablet en moet u zich opnieuw aanmelden.",
+        "POPUP_TEXT_CLICK": "Klik op Ja om de sessie te verlengen.",
+        "POPUP_TEXT_EXTENDED": "De sessie is al",
+        "POPUP_TEXT_TIMES": "keer verlengd.",
+        "POPUP_TEXT_CANNOT_EXTEND": "keer verlengd en kan niet nogmaals worden verlengd.",
+        "POPUP_LINK_TEXT": "Sessie verlengen",
+        "POPUP_BTN_YES": "Ja",
+        "POPUP_BTN_NO": "Nee",
+        "POPUP_LINK_TEXT_END": "Opnieuw verbinding maken met apparaat?"
+    },
+    "error":{
+     "100001": "Token of sessie-ID ongeldig",
+    "100002": "Ongeldig apparatuurmodel",
+    "100003": "Kan geen verbinding maken met IP-adres, controleer ingevoerd IP-adres of uw netwerkverbinding",
+    "100004": "Ongeldige gebruikersreferenties",
+    "100005": "Opgegeven hostnaam is niet geldig",
+    "100006": "Hostnaam is niet bereikbaar, controleer uw verbinding.",
+    "100007": "Verbinding geweigerd door apparatuur.",
+    "100008": "Er is een onverwachte interne serverfout opgetreden, probeer het opnieuw.",
+    "100009": "Systeemverificatie mislukt.",
+    "100010": "Ongeldig antwoord van DE-services",
+    "100011": "IP-adres is al geconfigureerd voor een ander systeem",
+    "100012": "Max. limiet parallelle verbindingen bereikt",
+    "100013": "Max. aantal apparaten waarvoor rechten gelden, is al geconfigureerd",
+    "100014": "Productinformatie bestaat niet op DE-servers",
+    "100015": "Er is een fout opgetreden tijdens het ophalen van het token",
+    "100016": "Ongeldig product, geselecteerd product komt niet overeen met de lijst op de server",
+    "100017": "Ongeldig Enterprise Setup-wachtwoord",
+    "100018": "Systeem-ID is ongeldig of bestaat al voor een andere configuratie",
+    "100019": "Maximumaantal pogingen bereikt, probeer het na 5 minuten opnieuw.",
+    "100020": "Bredere URL is niet geldig",
+    "100021": "Ongeldige persoonlijke sleutel parseren",
+    "100022": "Time-out tijdens het wachten op de verbinding, controleer de IP/SSH-verbinding van de modaliteit",
+    "100023": "tunnelingsocket kan niet tot stand worden gebracht, vernieuw",
+    "100024": "(SSH) Fout bij openen kanaal: openen mislukt",
+    "100025": "persoonlijke sleutel: bestand of map bestaat niet",
+    "100026": "Er is een fout opgetreden tijdens het parseren van het token",
+    "100027": "Ontbrekend token tijdens verbinding maken met het apparaat",
+    "100028": "tva-pop-up wordt geannuleerd of afgesloten of kan een scriptfout zijn",
+    "100029": "Niet gemachtigd om het RCOC-bestand uit te voeren",
+    "100030": "Er is een fout opgetreden bij het aanroepen van CRM ID RSVP API",
+    "100031": "Systeem-ID bestaat niet",
+    "100032": "nl-Error while fetching maxIdle time"
+},
+
+"common":
+{
+    "welcome": "Welkom",
+    "site_setup": "Site-instelling",
+    "loading": "Apparatuur laden",
+    "cancel": "Annuleren",
+    "new_system": "Nieuw systeem",
+    "edit_system": "Systeem bewerken",
+    "something_went_wrong": "Er is iets fout gegaan",
+    "photo_not_available": "Foto niet beschikbaar",
+    "required": "Verplicht",
+    "unable_to_connect": "Kan geen verbinding maken",
+    "check_connectivity_and_try_again": "Controleer de verbinding met de apparatuur en probeer het opnieuw. Neem contact op met uw GE-team als de problemen zich blijven voortdoen.",
+    "connect_ge": "Contact opnemen met GE",
+    "equipment_info":"De volgende apparatuur is geconfigureerd voor uw account. Ziet u de apparatuur die u zoekt niet",
+    "delete_the_system": "Systeem verwijderen?",
+    "are_you_sure_to_delete_the_system": "Weet u zeker dat u dit systeem wilt verwijderen: ",
+    "remove_equipment": "Apparatuur verwijderen",
+    "displays_the_equipment":"Geeft de apparatuur weer",
+    "no_connection_available": "Geen verbinding beschikbaar",
+    "version": "Versie",
+    "200001": "Productconfiguratie opgeslagen",
+    "200002": "Configuratie verwijderd"
+}
+	
+	
+	}

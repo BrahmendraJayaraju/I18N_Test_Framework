@@ -1,0 +1,193 @@
+{
+"addEquipment":
+{
+    "new_system": "Nytt system",
+    "edit_system": "Redigera system",
+    "a_problem_occurred": "Det uppstod ett problem med formuläret",
+    "please_see_details_highlighted_below": "Se den markerade informationen nedan.",
+    "something_went_wrong": "Det uppstod ett fel",
+    "product_information": "Produktinformation",
+    "no_products_available_to_configure": "Inga produkter tillgängliga för konfiguration",
+    "enable_remote_scan" : "Aktivera fjärrskanning",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Namn för identifiering av systemet för kunden",
+    "connectivity_information": "Anslutningsinformation",
+    "please_wait": "Vänta. Tar längre tid än förväntat.",
+    "delete_system": "Ta bort system",
+    "system_id": "System-ID",
+    "product_name": "Produktnamn",
+    "alias": "Alias",
+    "ip_address": "IP-adress",
+    "system_username": "Systemanvändarnamn",
+    "system_password": "Systemlösenord",
+    "show": "VISA",
+    "adding": "Lägger till ...",
+    "add_system": "Lägg till system",
+    "updating_changes": "Uppdaterar ändringar ...",
+    "save_changes": "Spara ändringar",
+    "please_enter_valid_system_id":"Ange ett giltigt system-ID",
+    "please_select_a_product":"Välj en produkt",
+    "please_enter_the_alias_name":"Ange aliasnamnet",
+    "please_enter_a_valid_ip_address":"Ange en giltig IP-adress",
+    "please_enter_user_name":"Ange användarnamn",
+    "please_enter_password":"Ange lösenord",
+    "product_added_with_this_system_id":"Produkt tillagd med det här system-ID:t",
+    "no_product_image":"Ingen produktbild"
+},
+"addMultiVendor":
+{
+   
+     "please_enter_valid_system_id": "Introduzca una ID de sistema válida.",
+    "system_id_max_char": "La ID del sistema no debe superar los 255 caracteres",
+    "please_select_a_product": "Seleccione un producto.",
+    "please_enter_the_alias": "Introduzca el alias.",
+    "alias_maxed_characters": "El alias no debe superar los 255 caracteres",
+    "please_enter_the_os_version": "Introduzca la versión del SO.",
+    "please_enter_a_valid_kvm_ip_address": "Introduzca una dirección IP válida de la KVM.",
+    "please_enter_kvm_user_name": "Introduzca el nombre de usuario de la KVM.",
+    "please_enter_kvm_mac_id": "Introduzca la ID de Mac de la KVM.",
+    "please_enter_a_valid_kvm_mac_id": "Introduzca una ID de Mac válida de la KVM.",
+    "please_enter_kvm_port_number": "Introduzca el número de puerto de la KVM.",
+    "port_number_must_be_an_integer": "El número de puerto debe ser un número entero",
+    "please_enter_kvm_token": "Introduzca el token de la KVM.",
+    "please_enter_kvm_password": "Introduzca la contraseña de la KVM.",
+    "os_version": "Versión del SO",
+    "kvm_connectivity_information": "Información sobre conectividad de la KVM",
+    "kvm_ip_address": "Dirección IP de la KVM",
+    "kvm_username": "Nombre de usuario de la KVM",
+    "kvm_password": "Contraseña de la KVM",
+    "KVM_Mac_ID": "ID de Mac de la KVM",
+    "KVM_Port_Number": "Número de puerto de la KVM",
+    "KVM_Token": "Token de la KVM"
+},
+"appHeader":
+{
+   "visible": "synlig",
+    "hidden": "dold",
+    "GE_healthcare": "GE Healthcare"
+},
+
+
+"configuredSystems":
+{
+   "connecting": "Ansluter ...",
+    "what_equipment_do_you_want_to_connect": "Vilken utrustning vill du ansluta till?",
+    "equipment_is_configured_message": "Följande utrustning är konfigurerad för ditt konto. Ser du inte den utrustning som du letar efter?",
+    "contact_GE": "Póngase en contacto con el equipo de GE.",
+    "maximum_of_3_connections_are_allowed": "Högst 3 anslutningar tillåts",
+    "loading_equipments_message": "Jag förstår att genom att ansluta kan jag göra det möjligt för en användare att visa och styra enhetsskärmarna och all information på dem via fjärranslutning. Jag har ansvaret för patient- och utrustningssäkerheten och förstår hur jag avaktiverar fjärranslutningen i händelse av fjärråtgärder som kan ha negativa konsekvenser.",
+    "no_equipment": "Ingen utrustningskonfiguration ännu. Kontakta GE-teamet",
+    "Cnt": "Anslut dig",
+    "Select_equipment_to_connect": "Välj utrustning att ansluta",
+    "equipment_info": "El siguiente equipo está configurado para su cuenta. ¿Nove el equipo?",
+	"i_understand_and_agree": "Entiendo y acepto."
+}
+,
+
+"equipments":
+{
+     "logout": "Utloggning",   
+    "equipment": "Utrustning",
+    "add_system": "Lägg till system",
+    "device_connected": "Enheten har anslutits.",
+    "ok": "Ok",
+    "device_not_connected": "Enheten är inte ansluten",
+    "update_system_setting": "Uppdatera systeminställningarna.",
+    "display_equipment" : "Visar utrustningen",    
+    "test_connection" : "Testa anslutningen",
+    "edit": "Redigera",
+    "no_eqipument_text": "Ingen utrustningskonfiguration ännu",
+    "add_systems_text": "Añadir sistema para permitir conexiones de Enterprise en esta tableta",
+    "Confidential_Information": "Las pantallas pueden incluir información confidencial. Asegúrese de que las condiciones de visualización sean seguras y adecuadas. Si las condiciones no son las adecuadas, deje de compartir pantalla o el control.",
+	"Header": "equipo"
+}
+,
+
+"otpConfiguration":
+{
+     "configure_equipment": "Konfigurera utrustning för peer-to-peer-åtkomst",
+    "error_header": "Vi känner tyvärr inte igen lösenordet",
+    "error_subheader": "Ange ett giltigt lösenord",
+    "otp_label_text": "Ange Enterprise-lösenordet",
+    "otp_input_errorMessage": "Ange ett giltigt Enterprise-lösenord",
+    "signing_in": "Loggar in ...",
+    "sign_in": "Logga in"
+},
+
+
+
+    "Console Screen" :{
+       "POPUP_HEADING" : "Cierre de sesión pronto",
+        "POPUP_TEXT_IN": "En",
+        "POPUP_TEXT_INACTIVITY_INFO": "minutos, se cerrará la aplicación Digital Expert debido a la inactividad de la tableta y será necesario volver a iniciar sesión.",
+        "POPUP_TEXT_CLICK": "Para extender la sesión, haga clic en Sí.",
+        "POPUP_TEXT_EXTENDED": "Se ha extendido la sesión",
+        "POPUP_TEXT_TIMES": "veces ya.",
+        "POPUP_TEXT_CANNOT_EXTEND": "veces ya y no se puede extender más.",
+        "POPUP_LINK_TEXT": "Extender sesión",
+        "POPUP_BTN_YES": "Sí",
+        "POPUP_BTN_NO": "No",
+        "POPUP_LINK_TEXT_END": "¿Volver a conectar al dispositivo?"
+    },
+    "error":{
+    
+    "100001": "Token o ID de sesión no válidos",
+    "100002": "Modelo de equipo no válido",
+    "100003": "No se puede conectar a la dirección IP. Compruebe la dirección IP introducida o la conexión de red",
+    "100004": "Credenciales de usuario incorrectas",
+    "100005": "El nombre de host proporcionado no es válido",
+    "100006": "No se puede acceder al nombre de host, compruebe la conexión.",
+    "100007": "El equipo ha rechazado la conexión.",
+    "100008": "Se ha producido un error interno del servidor de forma inesperada, inténtelo de nuevo.",
+    "100009": "Se ha producido un error en la autenticación del sistema.",
+    "100010": "Respuesta no válida de los servicios de DE",
+    "100011": "Esta dirección IP ya está configurada para otro sistema",
+    "100012": "Se ha alcanzado el límite máximo de conexiones paralelas",
+    "100013": "Se ha configurado el número máximo de dispositivos permitidos",
+    "100014": "La información del producto no existe en los servidores de DE",
+    "100015": "Se ha producido un error al obtener el token",
+    "100016": "Producto no válido, el producto seleccionado no coincide con la lista del servidor",
+    "100017": "La contraseña de configuración de Enterprise no es válida",
+    "100018": "El ID del sistema no es válido o ya existe para otra configuración",
+    "100019": "Se ha alcanzado el número máximo de intentos, inténtelo de nuevo en 5 minutos.",
+    "100020": "La ampliación de la URL no es válida",
+    "100021": "Analizando una clave privada no válida",
+    "100022": "Se ha agotado el tiempo de espera mientras se esperaba la conexión. Compruebe la modalidad de la conexión IP/SSH",
+    "100023": "no se ha podido establecer el túnel de comunicación, actualice la página",
+    "100024": "(SSH) Error de apertura del canal: Error de apertura",
+    "100025": "clave privada: no existe ese archivo o directorio",
+    "100026": "Se ha producido un error al analizar el token",
+    "100027": "Falta un token durante la conexión con el equipo",
+    "100028": "la ventana emergente TVA se cancela o se cierra, o puede ser un error de script",
+    "100029": "No tiene autorización para ejecutar el archivo RCOC",
+    "100030": "Se ha producido un error al llamar a la API de RSvP para obtener el ID de CRM",
+    "100031": "El ID del sistema no existe",
+    "100032": "es-Error while fetching maxIdle time"
+},
+
+"common":
+{
+    "welcome": "Välkommen",
+    "site_setup": "Platskonfiguration",
+    "loading": "Läser in utrustning",
+    "cancel": "Avbryt",
+    "new_system": "Nytt system",
+    "edit_system": "Redigera system",
+    "something_went_wrong": "Det uppstod ett fel",
+    "photo_not_available": "Foto inte tillgängligt",
+    "required": "Obligatoriskt",
+    "unable_to_connect": "Det gick inte att ansluta",
+    "check_connectivity_and_try_again": "Kontrollera utrustningsanslutningen och försök igen. Kontakta GE-teamet om problemet kvarstår.",
+    "connect_ge": "Kontakta GE",
+    "equipment_info":"Följande utrustning är konfigurerad för ditt konto. Ser du inte den utrustning som du letar efter?",
+    "delete_the_system": "Vill du ta bort systemet?",
+    "are_you_sure_to_delete_the_system": "Är du säker på att du vill du vill ta bort det här systemet? ",
+    "remove_equipment": "Ta bort utrustning",
+    "displays_the_equipment":"Visar utrustningen",
+    "no_connection_available": "Ingen anslutning tillgänglig",
+    "version": "Versión",
+    "200001": "Configuración del producto guardada",
+    "200002": "Configuración eliminada"
+}
+	
+	
+	}

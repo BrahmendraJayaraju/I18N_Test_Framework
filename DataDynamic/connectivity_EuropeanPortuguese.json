@@ -1,0 +1,100 @@
+{
+"addEquipment":{
+"new_system": "Novo sistema",
+    "edit_system": "Editar sistema",
+    "a_problem_occurred": "Ocorreu um problema com o seu formulário",
+    "please_see_details_highlighted_below": "Consulte os detalhes destacados abaixo.",
+    "something_went_wrong": "Ocorreu um erro",
+    "product_information": "Informações do produto",
+    "no_products_available_to_configure": "Nenhum produto disponível para configuração",
+    "enable_remote_scan" : "Ativar exame remoto",
+    "the_name_by_which_the_customer_will_recognize_the_system": "O nome pelo qual o cliente reconhecerá o sistema",
+    "connectivity_information": "Informações de conetividade",
+    "please_wait": "Aguarde. Está a demorar mais tempo do que o esperado.",
+    "delete_system": "Eliminar sistema",
+    "system_id": "ID do sistema",
+    "product_name": "Nome do produto",
+    "alias": "Nome alternativo",
+    "ip_address": "Endereço IP",
+    "system_username": "Nome de utilizador do sistema",
+    "system_password": "Palavra-passe do sistema",
+    "show": "MOSTRAR",
+    "adding": "A adicionar...",
+    "add_system": "Adicionar sistema",
+    "updating_changes": "A atualizar alterações...",
+    "save_changes": "Guardar alterações",
+    "please_enter_valid_system_id":"Introduza uma ID de sistema válida",
+    "please_select_a_product":"Selecione um produto",
+    "please_enter_the_alias_name":"Introduza o nome alternativo",
+    "please_enter_a_valid_ip_address":"Introduza um endereço IP válido",
+    "please_enter_user_name":"Introduza o nome de utilizador",
+    "please_enter_password":"Introduza a palavra-passe",
+    "product_added_with_this_system_id":"Produto adicionado com esta ID do sistema",
+    "no_product_image":"Sem imagem de produto"
+},
+"appHeader":{
+"visible": "visível",
+    "hidden": "oculto",
+    "GE_healthcare": "GE Healthcare"
+ 
+},
+"common":{
+ "welcome": "Bem-vindo(a)",
+    "site_setup": "Configuração do local",
+    "loading": "A carregar equipamentos",
+    "cancel": "Cancelar",
+    "new_system": "Novo sistema",
+    "edit_system": "Editar sistema",
+    "something_went_wrong": "Ocorreu um erro",
+    "photo_not_available": "Fotografia não disponível",
+    "required": "Obrigatório",
+    "unable_to_connect": "Não é possível ligar",
+    "check_connectivity_and_try_again": "Verifique a conetividade do equipamento e volte a tentar. Se o problema persistir, contacte a sua equipa GE.",
+    "connect_ge": "Contactar a GE",
+    "equipment_info":"O seguinte equipamento está configurado para a sua conta. Não vê o equipamento que procura",
+    "delete_the_system": "Eliminar o sistema?",
+    "are_you_sure_to_delete_the_system": "Tem a certeza de que pretente eliminar este sistema: ",
+    "remove_equipment": "Remover equipamento",
+    "displays_the_equipment":"Apresenta o equipamento",
+    "no_connection_available": "Nenhuma ligação disponível"
+},
+"configuredSystems":{
+  "connecting": "A ligar...",
+    "what_equipment_do_you_want_to_connect": "A que equipamento pretende ligar?",
+    "equipment_is_configured_message": "O seguinte equipamento está configurado para a sua conta. Não vê o equipamento que procura?",
+    "contact_GE": "Contactar a GE",
+    "maximum_of_3_connections_are_allowed": "É permitido um máximo de 3 ligações",
+    "loading_equipments_message": "Compreendo que, ao estabelecer ligação, posso permitir que um utilizador visualize e controle remotamente os ecrãs do dispositivo e quaisquer informações que contenha. Continuo a ser responsável pela segurança do paciente e do equipamento e compreendo como desativar a ligação remota em caso de qualquer ação remota adversa.",
+    "no_equipment": "Ainda não foi configurado nenhum equipamento. Contacte a equipa GE",
+    "Connect": "Ligar",
+    "Select_equipment_to_connect": "Selecione o equipamento a ligar"
+
+
+},
+"equipments":{
+ 
+"logout": "Encerrar sessão",   
+    "equipment": "Equipamento",
+    "add_system": "Adicionar sistema",
+    "device_connected": "Dispositivo ligado!",
+    "ok": "Ok",
+    "device_not_connected": "Dispositivo não ligado",
+    "update_system_setting": "Atualize as definições do sistema.",
+    "display_equipment" : "Apresenta o equipamento",    
+    "test_connection" : "Testar ligação",
+    "edit": "Editar",
+    "no_eqipument_text": "Ainda não foi configurado nenhum equipamento",
+    "add_systems_text": "Adicione sistemas para ativar ligações Enterprise neste tablet"
+     
+},
+"otpConfiguration":{
+"configure_equipment": "Configurar equipamento para acesso ponto a ponto",
+    "error_header": "Lamentamos, mas não reconhecemos essa palavra-passe",
+    "error_subheader": "Introduza uma palavra-passe válida",
+    "otp_label_text": "Introduza a palavra-passe Enterprise",
+    "otp_input_errorMessage": "Introduza uma palavra-passe Enterprise válida",
+    "signing_in": "A iniciar sessão...",
+    "sign_in": "Iniciar sessão"
+ 
+}
+}

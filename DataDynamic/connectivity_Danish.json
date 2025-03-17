@@ -1,0 +1,101 @@
+{
+"addEquipment":{
+    
+"new_system": "Nyt system",
+    "edit_system": "Rediger system",
+    "a_problem_occurred": "Der opstod et problem med din formular",
+    "please_see_details_highlighted_below": "Se oplysningerne fremhævet nedenfor.",
+    "something_went_wrong": "Der opstod en fejl",
+    "product_information": "Produktinformation",
+    "no_products_available_to_configure": "Der er ingen tilgængelige produkter at konfigurere",
+    "enable_remote_scan" : "Aktiver fjernscanning",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Det navn, som kunden vil genkende systemet på",
+    "connectivity_information": "Information om tilslutningsmuligheder",
+    "please_wait": "Vent venlig. Tager længere tid end forventet.",
+    "delete_system": "Slet system",
+    "system_id": "System-ID",
+    "product_name": "Produktnavn",
+    "alias": "Alias",
+    "ip_address": "IP-adresse",
+    "system_username": "Systembrugernavn",
+    "system_password": "Systemadgangskode",
+    "show": "VIS",
+    "adding": "Tilføjer...",
+    "add_system": "Tilføj system",
+    "updating_changes": "Opdaterer ændringer...",
+    "save_changes": "Gem ændringer",
+    "please_enter_valid_system_id":"Indtast gyldigt system-id",
+    "please_select_a_product":"Vælg et produkt",
+    "please_enter_the_alias_name":"Indtast aliasnavnet",
+    "please_enter_a_valid_ip_address":"Indtast gyldig IP-adresse",
+    "please_enter_user_name":"Indtast brugernavn",
+    "please_enter_password":"Indtast adgangskode",
+    "product_added_with_this_system_id":"Produkt tilføjet med dette system-id",
+    "no_product_image":"Intet produktbillede"
+},
+"appHeader":{
+
+"visible": "synlig",
+    "hidden": "skjult",
+    "GE_healthcare": "GE Healthcare"
+   
+},
+"common":{
+"welcome": "Velkommen",
+    "site_setup": "Konfigurering af stedet",
+    "loading": "Indlæser udstyr",
+    "cancel": "Annuller",
+    "new_system": "Nyt system",
+    "edit_system": "Rediger system",
+    "something_went_wrong": "Der opstod en fejl",
+    "photo_not_available": "Foto ikke tilgængelig",
+    "required": "Påkrævet",
+    "unable_to_connect": "Kunne ikke oprette forbindelse",
+    "check_connectivity_and_try_again": "Kontroller udstyrets forbindelse, og prøv igen. Hvis problemerne fortsætter, skal du kontakte dit GE-team.",
+    "connect_ge": "Kontakt GE",
+    "equipment_info":"Følgende udstyr er konfigureret til din konto. Kan du ikke se det udstyr, du leder efter",
+    "delete_the_system": "Slet systemet?",
+    "are_you_sure_to_delete_the_system": "Er du sikker på, at du vil slette dette system: ",
+    "remove_equipment": "Fjern udstyr",
+    "displays_the_equipment":"Viser udstyret",
+    "no_connection_available": "Ingen tilgængelig forbindelse"
+},
+"configuredSystems":{
+   
+   "connecting": "Tilslutter...",
+    "what_equipment_do_you_want_to_connect": "Hvilket udstyr vil du oprette forbindelse til?",
+    "equipment_is_configured_message": "Følgende udstyr er konfigureret til din konto. Kan du ikke se det udstyr, du leder efter?",
+    "contact_GE": "Kontakt GE",
+    "maximum_of_3_connections_are_allowed": "Maksimalt 3 forbindelser er tilladt",
+    "loading_equipments_message": "Jeg forstår, at jeg ved at tilslutte kan give en bruger mulighed for at se og styre enhedens skærmbilleder og eventuel information, de indeholder. Jeg er fortsat ansvarlig for patientens og udstyrets sikkerhed og forstår, hvordan fjernforbindelsen deaktiveres i tilfælde af uønskede fjernhandlinger.",
+    "no_equipment": "Ingen konfigurering af udstyr endnu. Kontakt venligst GE-teamet",
+    "Connect": "Connect",
+    "Select_equipment_to_connect": "Vælg udstyr, der skal tilsluttes"
+  
+},
+"equipments":{
+    "logout": "Log af",   
+    "equipment": "Udstyr",
+    "add_system": "Tilføj system",
+    "device_connected": "Enheden tilsluttet!",
+    "ok": "OK",
+    "device_not_connected": "Enheden ikke tilsluttet",
+    "update_system_setting": "Opdater systemindstillingerne.",
+    "display_equipment" : "Viser udstyret",    
+    "test_connection" : "Test forbindelsen",
+    "edit": "Redigér",
+    "no_eqipument_text": "Ingen konfigurering af udstyr endnu",
+    "add_systems_text": "Tilføj systemer for at aktivere Enterprise-forbindelser på denne tablet"
+},
+"otpConfiguration":{
+
+"configure_equipment": "Konfigurer udstyret til peer-to-peer-adgang",
+    "error_header": "Vi kan desværre ikke genkende denne adgangskode",
+    "error_subheader": "Indtast en gyldig adgangskode",
+    "otp_label_text": "Indtast Enterprise-adgangskode",
+    "otp_input_errorMessage": "Indtast en gyldig Enterprise-adgangskode",
+    "signing_in": "Logger ind...",
+    "sign_in": "Log ind"
+   
+}
+}

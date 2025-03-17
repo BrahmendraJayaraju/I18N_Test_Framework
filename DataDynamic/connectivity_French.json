@@ -1,0 +1,101 @@
+{
+"addEquipment":{
+    
+"new_system": "Nouveau système",
+    "edit_system": "Modifier le système",
+    "a_problem_occurred": "Un problème est survenu avec votre formulaire",
+    "please_see_details_highlighted_below": "Veuillez consulter les détails ci-dessous.",
+    "something_went_wrong": "Un problème est survenu",
+    "product_information": "Informations sur le produit",
+    "no_products_available_to_configure": "Aucun produit disponible à configurer",
+    "enable_remote_scan" : "Activer l'acquisition à distance",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Nom par lequel le client reconnaîtra le système",
+    "connectivity_information": "Informations de connectivité",
+    "please_wait": "Veuillez patienter. L'opération prend plus de temps que prévu.",
+    "delete_system": "Supprimer le système",
+    "system_id": "ID système",
+    "product_name": "Nom du produit",
+    "alias": "Alias",
+    "ip_address": "Adresse IP",
+    "system_username": "Nom d'utilisateur système",
+    "system_password": "Mot de passe système",
+    "show": "AFFICHER",
+    "adding": "Ajout...",
+    "add_system": "Ajouter un système",
+    "updating_changes": "Mise à jour des modifications...",
+    "save_changes": "Enregistrer les modifications",
+    "please_enter_valid_system_id":"Veuillez saisir un ID système valide",
+    "please_select_a_product":"Veuillez sélectionner un produit",
+    "please_enter_the_alias_name":"Veuillez saisir le nom d'alias",
+    "please_enter_a_valid_ip_address":"Veuillez saisir une adresse IP valide",
+    "please_enter_user_name":"Veuillez saisir un nom d'utilisateur",
+    "please_enter_password":"Veuillez saisir un mot de passe",
+    "product_added_with_this_system_id":"Produit ajouté avec cet ID système",
+    "no_product_image":"Aucune image du produit"
+},
+"appHeader":{
+ "visible": "visible",
+    "hidden": "masqué",
+    "GE_healthcare": "GE HealthCare"
+ 
+},
+"common":{
+"welcome":"Bienvenue",
+    "site_setup":"Configuration du site",
+    "loading": "Chargement des équipements",
+    "cancel": "Annuler",
+    "new_system": "Nouveau système",
+    "edit_system": "Modifier le système",
+    "something_went_wrong": "Un problème est survenu",
+    "photo_not_available": "Photo non disponible",
+    "required": "Requis",
+    "unable_to_connect":"Connexion impossible",
+    "check_connectivity_and_try_again":"Veuillez vérifier la connectivité de l'équipement et réessayer. Si le problème persiste, contactez votre équipe GE.",
+    "connect_ge": "Contacter GE",
+    "equipment_info":"L'équipement suivant est configuré pour votre compte. Vous ne voyez pas l'équipement que vous recherchez",
+    "delete_the_system": "Supprimer le système ?",
+    "are_you_sure_to_delete_the_system": "Êtes-vous sûr(e) de vouloir supprimer ce système : ",
+    "remove_equipment": "Supprimer l'équipement",
+    "displays_the_equipment":"Affiche l'équipement",
+    "no_connection_available": "Aucune connexion disponible"
+},
+"configuredSystems":{
+ "connecting": "Connexion...",
+    "what_equipment_do_you_want_to_connect": "À quel équipement souhaitez-vous vous connecter ?",
+    "equipment_is_configured_message": "L'équipement suivant est configuré pour votre compte. Vous ne voyez pas l'équipement que vous recherchez ?",
+    "contact_GE": "Contacter GE",
+    "maximum_of_3_connections_are_allowed": "3 connexions maximum sont autorisées",
+    "loading_equipments_message": "Je comprends qu'en me connectant, je peux permettre à un utilisateur d'afficher et de contrôler à distance les écrans de l'appareil et toutes les informations qu'ils contiennent. Je suis responsable de la sécurité du patient et de l'équipement et je sais comment désactiver la connexion à distance en cas d'action à distance indésirable.",
+    "no_equipment": "Aucun équipement configuré pour le moment. Veuillez contacter l'équipe GE",
+    "Connect":"Connexion",
+    "Select_equipment_to_connect": "Sélectionnez l'équipement à connecter"
+
+
+},
+"equipments":{
+
+"logout": "Déconnexion",   
+    "equipment": "Équipement",
+    "add_system": "Ajouter un système",
+    "device_connected": "Appareil connecté !",
+    "ok": "OK",
+    "device_not_connected": "Appareil non connecté",
+    "update_system_setting": "Veuillez mettre à jour les paramètres du système.",
+    "display_equipment" : "Affiche l'équipement",    
+    "test_connection" : "Tester la connexion",
+    "edit": "Modifier",
+    "no_eqipument_text": "Aucun équipement configuré pour le moment",
+    "add_systems_text": "Ajoutez des systèmes pour activer les connexions Enterprise sur cette tablette"
+     
+},
+"otpConfiguration":{
+ 
+    "configure_equipment": "Configurer l'équipement pour un accès Peer-to-Peer",
+    "error_header": "Désolé, nous ne reconnaissons pas ce mot de passe",
+    "error_subheader": "Veuillez saisir un mot de passe valide",
+    "otp_label_text": "Veuillez saisir le mot de passe Enterprise",
+    "otp_input_errorMessage": "Veuillez saisir un mot de passe Enterprise valide",
+    "signing_in": "Connexion...",
+    "sign_in": "Se connecter"
+}
+}

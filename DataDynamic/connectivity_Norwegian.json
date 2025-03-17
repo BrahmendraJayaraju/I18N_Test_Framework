@@ -1,0 +1,102 @@
+{
+"addEquipment":{
+    
+ "new_system": "Nytt system",
+    "edit_system": "Rediger system",
+    "a_problem_occurred": "Det oppstod et problem med skjemaet ditt",
+    "please_see_details_highlighted_below": "Se uthevede detaljer under.",
+    "something_went_wrong": "Noe gikk galt",
+    "product_information": "Produktinformasjon",
+    "no_products_available_to_configure": "Ingen produkter tilgjengelig for konfigurasjon",
+    "enable_remote_scan" : "Aktiver ekstern skanning",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Navnet som kunden vil kjenne igjen systemet med",
+    "connectivity_information": "Tilkoblingsinformasjon",
+    "please_wait": "Vent litt. Det tar lengre tid enn forventet.",
+    "delete_system": "Slett system",
+    "system_id": "System-ID",
+    "product_name": "Produktnavn",
+    "alias": "Alias",
+    "ip_address": "IP-adresse",
+    "system_username": "Brukernavn for system",
+    "system_password": "Systempassord",
+    "show": "VIS",
+    "adding": "Legger til ...",
+    "add_system": "Legg til system",
+    "updating_changes": "Oppdaterer endringer ...",
+    "save_changes": "Lagre endringer",
+    "please_enter_valid_system_id":"Angi en gyldig system-ID",
+    "please_select_a_product":"Velg et produkt",
+    "please_enter_the_alias_name":"Angi aliasnavnet",
+    "please_enter_a_valid_ip_address":"Angi en gyldig IP-adresse",
+    "please_enter_user_name":"Angi brukernavn",
+    "please_enter_password":"Angi et passord",
+    "product_added_with_this_system_id":"Produkt lagt til med denne system-ID-en",
+    "no_product_image":"Ingen produktbilder"
+},
+"appHeader":{
+"visible": "synlig",
+    "hidden": "skjult",
+    "GE_healthcare": "GE Healthcare"
+
+},
+"common":{
+    "welcome": "Velkommen",
+    "site_setup": "Oppsett av sted",
+    "loading": "Laster utstyr",
+    "cancel": "Avbryt",
+    "new_system": "Nytt system",
+    "edit_system": "Rediger system",
+    "something_went_wrong": "Noe gikk galt",
+    "photo_not_available": "Bilde er ikke tilgjengelig",
+    "required": "Påkrevd",
+    "unable_to_connect": "Kan ikke koble til",
+    "check_connectivity_and_try_again": "Sjekk tilkoblingen av utstyret ,og prøv på nytt. Hvis problemene vedvarer, kontakter du Ge-kontakten din.",
+    "connect_ge": "Kontakt GE",
+    "equipment_info":"Følgende utstyr er konfigurert for kontoen din. Ser du ikke utstyret du leter etter?",
+    "delete_the_system": "Vil du slette systemet?",
+    "are_you_sure_to_delete_the_system": "Er du sikker på at du vil slette dette systemet? ",
+    "remove_equipment": "Fjern utstyr",
+    "displays_the_equipment":"Viser utstyret",
+    "no_connection_available": "Ingen tilkobling tilgjengelig"
+},
+"configuredSystems":{
+   
+   "connecting": "Kobler til ...",
+    "what_equipment_do_you_want_to_connect": "Hvilket utstyr vil du koble til?",
+    "equipment_is_configured_message": "Følgende utstyr er konfigurert for kontoen din. Ser du ikke utstyret du leter etter?",
+    "contact_GE": "Kontakt GE",
+    "maximum_of_3_connections_are_allowed": "Maksimalt 3 tilkoblinger er tillatt",
+    "loading_equipments_message": "Jeg forstår at hvis jeg kobler til, kan jeg gjøre det mulig for en bruker å se og kontrollere enhetens skjermer og all informasjon de inneholder, eksternt. Jeg beholder ansvaret for pasient- og utstyrssikkerhet og forstår hvordan jeg kan deaktivere den eksterne tilkoblingen i tilfelle uønskede eksterne handlinger.",
+    "no_equipment": "Intet utstyr er satt opp ennå. Kontakt GE-kontakten",
+    "Connect": "Koble til",
+    "Select_equipment_to_connect": "Velg utstyret som skal kobles til"
+
+},
+"equipments":{
+
+     "logout": "Logg av",   
+    "equipment": "Utstyr",
+    "add_system": "Legg til system",
+    "device_connected": "Enhet tilkoblet!",
+    "ok": "OK",
+    "device_not_connected": "Enhet ikke tilkoblet",
+    "update_system_setting": "Oppdater systeminnstillingene.",
+    "display_equipment" : "Viser utstyret",    
+    "test_connection" : "Test tilkobling",
+    "edit": "Rediger",
+    "no_eqipument_text": "Ingen utstyr er satt opp ennå",
+    "add_systems_text": "Legg til systemer for å aktivere Enterprise-tilkoblinger på dette nettbrettet"
+     
+},
+"otpConfiguration":{
+
+"configure_equipment": "Konfigurer utstyr for node-til-node-tilgang",
+    "error_header": "Beklager, vi kjenner ikke igjen dette passordet",
+    "error_subheader": "Angi et gyldig passord",
+    "otp_label_text": "Angi et Enterprise-passord",
+    "otp_input_errorMessage": "Angi et gyldig Enterprise-passord",
+    "signing_in": "Logger på ...",
+    "sign_in": "Logg på"
+   
+}
+}

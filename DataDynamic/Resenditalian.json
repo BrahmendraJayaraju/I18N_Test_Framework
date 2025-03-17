@@ -1,0 +1,15 @@
+{
+    "Resend_Certificate": {
+        "resend.certificate.congratulations": "Congratulazioni!",
+        "resend.certificate.dear": "Gentile",
+        "resend.certificate.body": "Congratulazioni per aver completato",
+        "resend.certificate.team": "Il team GE Digital Expert",
+        "resend.certificate.ge": "GE Healthcare",
+        "resend.certificate.completion": "CERTIFICATO DI COMPLETAMENTO",
+        "resend.certificate.awarded": "Assegnato a",
+        "resend.certificate.successful": "per aver completato",
+        "resend.certificate.on": "il giorno",
+        "resend.certificate.subject": "Certificato del corso.",
+        "resend.certificate.file": "Certificato.pdf"
+    }
+}

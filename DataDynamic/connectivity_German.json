@@ -1,0 +1,101 @@
+{
+"addEquipment":{
+    
+   "new_system": "Neues System",
+    "edit_system": "System bearbeiten",
+    "a_problem_occurred": "Bei Ihrem Formular ist ein Problem aufgetreten",
+    "please_see_details_highlighted_below": "Nachstehend finden Sie hervorgehobene Details dazu.",
+    "something_went_wrong": "Es ist ein Fehler aufgetreten",
+    "product_information": "Produktinformationen",
+    "no_products_available_to_configure": "Keine Produkte zur Konfiguration verfügbar",
+    "enable_remote_scan" : "Remote-Scan aktivieren",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Name, an dem der Kunde das System erkennt",
+    "connectivity_information": "Verbindungsinformationen",
+    "please_wait": "Bitte warten. Es dauert länger als erwartet.",
+    "delete_system": "System löschen",
+    "system_id": "System-ID",
+    "product_name": "Produktname",
+    "alias": "Alias",
+    "ip_address": "IP-Adresse",
+    "system_username": "Systembenutzername",
+    "system_password": "Systemkennwort",
+    "show": "ANZEIGEN",
+    "adding": "Wird hinzugefügt...",
+    "add_system": "System hinzufügen",
+    "updating_changes": "Änderungen werden aktualisiert...",
+    "save_changes": "Änderungen speichern",
+    "please_enter_valid_system_id":"Geben Sie eine gültige System-ID ein",
+    "please_select_a_product":"Wählen Sie ein Produkt aus",
+    "please_enter_the_alias_name":"Geben Sie den Alias-Namen ein",
+    "please_enter_a_valid_ip_address":"Geben Sie eine gültige IP-Adresse ein",
+    "please_enter_user_name":"Geben Sie den Benutzernamen ein",
+    "please_enter_password":"Geben Sie das Kennwort ein",
+    "product_added_with_this_system_id":"Produkt mit dieser System-ID hinzugefügt",
+    "no_product_image":"Keine Produktabbildung"
+},
+"appHeader":{
+
+"visible": "sichtbar",
+    "hidden": "ausgeblendet",
+    "GE_healthcare": "GE Healthcare"
+   
+},
+"common":{
+"welcome": "Willkommen",
+    "site_setup": "Standort­Einrichtung",
+    "loading": "Geräte werden geladen",
+    "cancel": "Abbrechen",
+    "new_system": "Neues System",
+    "edit_system": "System bearbeiten",
+    "something_went_wrong": "Es ist ein Fehler aufgetreten",
+    "photo_not_available": "Foto nicht verfügbar",
+    "required": "Erforderlich",
+    "unable_to_connect": "Verbindungsaufbau nicht möglich",
+    "check_connectivity_and_try_again": "Überprüfen Sie die Konnektivität des Geräts, und versuchen Sie es erneut. Wenn die Probleme weiterhin bestehen, wenden Sie sich an Ihr GE Team.",
+    "connect_ge": "GE kontaktieren",
+    "equipment_info":"Die folgenden Geräte sind für Ihr Konto konfiguriert. Sie finden das gesuchte Gerät nicht?",
+    "delete_the_system": "System löschen?",
+    "are_you_sure_to_delete_the_system": "Möchten Sie das folgende System wirklich löschen? ",
+    "remove_equipment": "Gerät entfernen",
+    "displays_the_equipment":"Gerät wird angezeigt",
+    "no_connection_available": "Keine Verbindung verfügbar"
+},
+"configuredSystems":{
+
+   "connecting": "Verbindung wird hergestellt...",
+    "what_equipment_do_you_want_to_connect": "Mit welchem Gerät möchten Sie eine Verbindung herstellen?",
+    "equipment_is_configured_message": "Die folgenden Geräte sind für Ihr Konto konfiguriert. Sie finden das gesuchte Gerät nicht?",
+    "contact_GE": "GE kontaktieren",
+    "maximum_of_3_connections_are_allowed": "Es sind maximal 3 Verbindungen zulässig.",
+    "loading_equipments_message": "Ich verstehe, dass ich durch die Herstellung einer Verbindung es einem Benutzer möglicherweise ermögliche, die Gerätebildschirme und alle darin enthaltenen Informationen aus der Ferne anzuzeigen und darauf zuzugreifen. Ich bin weiterhin für die Sicherheit von Patienten und Geräten verantwortlich und weiß, wie ich die Remote-Verbindung im Falle unerwünschter Eingriffe aus der Ferne deaktivieren kann.",
+    "no_equipment": "Noch keine Geräte eingerichtet. Bitte das GE Team kontaktieren",
+    "Connect": "Verbinden",
+    "Select_equipment_to_connect": "Zu verbindende Geräte auswählen"
+
+},
+"equipments":{
+"logout": "Abmeldung",   
+    "equipment": "Gerät",
+    "add_system": "System hinzufügen",
+    "device_connected": "Gerät verbunden!",
+    "ok": "OK",
+    "device_not_connected": "Gerät nicht verbunden",
+    "update_system_setting": "Bitte aktualisieren Sie die Systemeinstellungen.",
+    "display_equipment" : "Gerät wird angezeigt",    
+    "test_connection" : "Verbindung testen",
+    "edit": "Bearbeiten",
+    "no_eqipument_text": "Noch keine Geräte eingerichtet",
+    "add_systems_text": "Fügen Sie Systeme hinzu, um Enterprise Verbindungen auf diesem Tablet zu aktivieren."
+},
+"otpConfiguration":{
+
+"configure_equipment": "Konfigurieren Sie Geräte für den Peer-to-Peer-Zugriff",
+    "error_header": "Dieses Kennwort wurde leider nicht erkannt.",
+    "error_subheader": "Geben Sie ein gültiges Kennwort ein",
+    "otp_label_text": "Geben Sie das Enterprise Kennwort ein",
+    "otp_input_errorMessage": "Geben Sie ein gültiges Enterprise Kennwort ein",
+    "signing_in": "Anmeldung läuft...",
+    "sign_in": "Anmelden"
+   
+}
+}

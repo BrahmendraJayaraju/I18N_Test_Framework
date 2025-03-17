@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="International_DE_App(failed)" verbose="0">
+    <classes>
+      <class name="deapp.International_DE_App">
+        <methods>
+          <include name="verify_swedish_Language"/>
+          <include name="verify_French_Language"/>
+          <include name="verify_Italian_Language"/>
+          <include name="verify_Norwegian_Language"/>
+          <include name="verify_Finnish_Language"/>
+          <include name="extentReportSetUp"/>
+          <include name="PostConditionTestStatus"/>
+          <include name="verify_Danish_Language"/>
+          <include name="verify_Polish_Language"/>
+          <include name="verify_Portuguese_Brazil_Language"/>
+          <include name="verify_Eurpoean_Portuguese_Language"/>
+          <include name="verify_Dutch_Language"/>
+          <include name="verify_English_Language"/>
+          <include name="verify_Spanish_Language"/>
+          <include name="addToReport"/>
+          <include name="verify_German_Language"/>
+        </methods>
+      </class> <!-- deapp.International_DE_App -->
+    </classes>
+  </test> <!-- International_DE_App(failed) -->
+</suite> <!-- Failed suite [Suite] -->

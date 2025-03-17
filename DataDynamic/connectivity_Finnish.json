@@ -1,0 +1,102 @@
+{
+"addEquipment":{
+    
+"new_system": "Uusi järjestelmä",
+    "edit_system": "Muokkaa järjestelmää",
+    "a_problem_occurred": "Ongelma lomakkeessa",
+    "please_see_details_highlighted_below": "Katso tiedot korostettuna alla.",
+    "something_went_wrong": "Jokin meni vikaan",
+    "product_information": "Tuotetiedot",
+    "no_products_available_to_configure": "Ei määritettäviä tuotteita",
+    "enable_remote_scan" : "Ota käyttöön etähaku",
+    "the_name_by_which_the_customer_will_recognize_the_system": "Nimi, josta asiakas tunnistaa järjestelmän",
+    "connectivity_information": "Yhteyden tiedot",
+    "please_wait": "Odota. Tämä kestää odotettua kauemmin.",
+    "delete_system": "Poista järjestelmä",
+    "system_id": "Järjestelmätunnus",
+    "product_name": "Tuotteen nimi",
+    "alias": "Alias",
+    "ip_address": "IP-osoite",
+    "system_username": "Järjestelmän käyttäjätunnus",
+    "system_password": "Järjestelmän salasana",
+    "show": "NÄYTÄ",
+    "adding": "Lisätään...",
+    "add_system": "Lisää järjestelmä",
+    "updating_changes": "Päivitetään muutoksia...",
+    "save_changes": "Tallenna muutokset",
+    "please_enter_valid_system_id":"Anna kelvollinen järjestelmätunnus",
+    "please_select_a_product":"Valitse tuote",
+    "please_enter_the_alias_name":"Anna aliaksen nimi",
+    "please_enter_a_valid_ip_address":"Anna kelvollinen IP-osoite",
+    "please_enter_user_name":"Anna käyttäjätunnus",
+    "please_enter_password":"Anna salasana",
+    "product_added_with_this_system_id":"Tuote lisätty tällä järjestelmätunnuksella",
+    "no_product_image":"Ei tuotekuvaa"
+    
+},
+"appHeader":{
+"visible": "näkyvissä",
+    "hidden": "piilotettu",
+    "GE_healthcare": "GE Healthcare"
+ 
+},
+"common":{
+"welcome": "Tervetuloa",
+    "site_setup": "Sivuston määritys",
+    "loading": "Ladataan laitteistoa",
+    "cancel": "Peruuta",
+    "new_system": "Uusi järjestelmä",
+    "edit_system": "Muokkaa järjestelmää",
+    "something_went_wrong": "Jokin meni vikaan",
+    "photo_not_available": "Kuvaa ei saatavilla",
+    "required": "Pakollinen",
+    "unable_to_connect": "Ei yhteyttä",
+    "check_connectivity_and_try_again": "Tarkista laitteiston yhteys ja yritä uudelleen. Jos ongelma jatkuu, ota yhteys GE-tiimiin.",
+    "connect_ge": "GE:n yhteystiedot",
+    "equipment_info": "Tilillesi on määritetty seuraavat laitteistot. Etkö näe etsimiäsi laitteistoja",
+    "delete_the_system": "Poistetaanko järjestelmä?",
+    "are_you_sure_to_delete_the_system": "Haluatko varmasti poistaa tämän järjestelmän: ",
+    "remove_equipment": "Poista laitteisto",
+    "displays_the_equipment":"Näyttää laitteiston",
+    "no_connection_available": "Ei yhteyttä käytettävissä"
+},
+"configuredSystems":{
+ 
+"connecting": "Yhdistetään...",
+    "what_equipment_do_you_want_to_connect": "Mihin laitteistoon haluat yhdistää?",
+    "equipment_is_configured_message": "Tilillesi on määritetty seuraavat laitteistot. Etkö näe etsimiäsi laitteistoja?",
+    "contact_GE": "GE:n yhteystiedot",
+    "maximum_of_3_connections_are_allowed": "Enintään 3 yhteyttä sallitaan",
+    "loading_equipments_message": "Tiedostan, että muodostamalla yhteyden saatan sallia sen, että käyttäjä tarkastelee ja hallitsee laitteen näyttöjä ja niiden sisältämiä tietoja etäyhteyden kautta. Otan vastuun potilas- ja laitteistoturvallisuudesta ja tiedän, miten etäyhteys poistetaan käytöstä, jos havaitaan haitallista etätoimintaa.",
+    "no_equipment": "Laitteistoa ei ole vielä määritetty. Ota yhteys GE-tiimiin",
+    "Connect": "Yhdistä",
+    "Select_equipment_to_connect": "Valitse yhdistettävä laitteisto"
+
+},
+"equipments":{
+
+ "logout": "Kirjaudu ulos",   
+    "equipment": "Laitteisto",
+    "add_system": "Lisää järjestelmä",
+    "device_connected": "Laite yhdistetty!",
+    "ok": "OK",
+    "device_not_connected": "Laitetta ei yhdistetty",
+    "update_system_setting": "Päivitä järjestelmäasetukset.",
+    "display_equipment" : "Näyttää laitteiston",    
+    "test_connection" : "Testaa yhteys",
+    "edit": "Muokkaa",
+    "no_eqipument_text": "Laitteistoa ei ole vielä määritetty",
+    "add_systems_text": "Lisää järjestelmiä, jotta voit ottaa Enterprise-yhteydet käyttöön tässä tabletissa"
+     
+},
+"otpConfiguration":{
+ 
+   "configure_equipment": "Määritä laitteisto vertaiskäyttöä varten",
+    "error_header": "Salasanaa ei tunnisteta",
+    "error_subheader": "Anna kelvollinen salasana",
+    "otp_label_text": "Anna Enterprise-salasana",
+    "otp_input_errorMessage": "Anna kelvollinen Enterprise-salasana",
+    "signing_in": "Kirjaudutaan sisään...",
+    "sign_in": "Kirjaudu sisään"
+}
+}
