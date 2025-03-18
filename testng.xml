@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
 
-
-	<test name="International_DE_App">
-		<classes>
-
-
-			<class name="deapp.International_DE_App"></class>
-            <class name="deapp.SendReportEmail"/>
+			<class name="deapp.International_DE_APP_HighestStringLength"></class>
+            
 
 		</classes>
 	</test> <!--
