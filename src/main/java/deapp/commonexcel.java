@@ -44,6 +44,10 @@ public class commonexcel extends AdminBaseControl {
 	
 	
 	
+	
+	
+	
+	
 	public static String readPropertyFiles(String filePath, String locatorName) throws Exception {
 		Properties properties = new Properties();
 

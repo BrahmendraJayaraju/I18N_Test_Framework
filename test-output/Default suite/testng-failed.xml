@@ -3,14 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="deapp.International_DE_App">
+      <class name="deapp.SendReportEmail">
         <methods>
-          <include name="verify_Danish_Language"/>
-          <include name="addToReport"/>
-          <include name="extentReportSetUp"/>
-          <include name="PostConditionTestStatus"/>
+          <include name="sendEmail"/>
         </methods>
-      </class> <!-- deapp.International_DE_App -->
+      </class> <!-- deapp.SendReportEmail -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

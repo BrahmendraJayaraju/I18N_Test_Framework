@@ -41,7 +41,7 @@ public class AdminBaseControl {
 
 	{
 
-		String ReportPath = "./Globalization_Framework_Language_Test/I18N_Automation_Report.html";
+		String ReportPath = "./Globalization_Framework_Language_Test/I18N_TestReport.html";
 
 		reports = new ExtentReports();
 		htmlReporter = new ExtentSparkReporter(ReportPath);

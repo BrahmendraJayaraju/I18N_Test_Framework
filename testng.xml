@@ -5,6 +5,7 @@
     <classes>
 
 			<class name="deapp.International_DE_APP_HighestStringLength"></class>
+			<class name="deapp.SendReportEmail"/>
             
 
 		</classes>

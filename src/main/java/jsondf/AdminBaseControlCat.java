@@ -41,13 +41,13 @@ public class AdminBaseControlCat {
 
 	{
 
-		String ReportPath = "./DigitalExpert1.5_18N_Reports/DE_1.5_I18N_TestReport.html";
+		String ReportPath = "./DigitalExpert1.5_18N_Reports/I18N_TestReport.html";
 
 		reports = new ExtentReports();
 		htmlReporter = new ExtentSparkReporter(ReportPath);
 
 		htmlReporter.config().setTheme(Theme.DARK);
-		htmlReporter.config().setDocumentTitle("DigitalExpert1.5_I18N_TestReport");
+		htmlReporter.config().setDocumentTitle("I18N_TestReport");
 		htmlReporter.config().setTimelineEnabled(true);
 
 		reports.attachReporter(htmlReporter);

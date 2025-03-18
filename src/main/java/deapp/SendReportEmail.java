@@ -17,12 +17,12 @@ public class SendReportEmail {
 
 		if (commonexcel.readPropertyFiles(filepath, "Sanity").equals("Yes".trim())) {
 			EmailAttachment attachment = new EmailAttachment();
-			attachment.setPath("./apireports/Git_Api_Report.html");
+			attachment.setPath("./Project_18N_Reports/I18N_TestReport.html");
 
 			attachment.setDisposition(EmailAttachment.ATTACHMENT);
 
 			attachment.setDescription("Automation sanity Extent Report");
-			attachment.setName("Api_Automation_Report.html");
+			attachment.setName("I18N_Automation_Report.html");
 
 			// Create the email message
 
@@ -36,9 +36,9 @@ public class SendReportEmail {
 
 				email.setFrom("brahmendraapiautomation@yopmail.net");
 
-				email.setSubject("API_Automation_Sanity_ExecutionReport");
+				email.setSubject("I18N_Automation_Sanity_ExecutionReport");
 				email.setMsg(
-						"Hi Team,\n\nplease find attached Sanity automation ExtentReport. Download and open in Chrome Broswer.\n\n\nThanksRegards,\nBrahmendra jayaraju\n+1 (302) 981-6805");
+						"Hi Team,\n\nplease find attached I18N Sanity automation ExtentReport. Download and open in Chrome Broswer.\n\n\nThanksRegards,\nBrahmendra jayaraju\n+1 (302) 981-6805");
 
 				
 				email.addTo("manu_1995_16@yopmail.net");
@@ -62,7 +62,7 @@ public class SendReportEmail {
 		{
 
 			EmailAttachment attachment = new EmailAttachment();
-			attachment.setPath("./apireports/Git_Api_Report.html");
+			attachment.setPath("./Project_18N_Reports/I18N_TestReport.html");
 			attachment.setDisposition(EmailAttachment.ATTACHMENT);
 			attachment.setDescription("Automation Regression Extent Report");
 			attachment.setName("I18N_Automation_Report.html");
