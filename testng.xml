@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
 
-			<class name="deapp.International_DE_App"></class>
-			
+			<class name="Testclass.International_App"></class>
+			<class name="Testclass.APP_HighestStringLength"></class>
             
 
 		</classes>

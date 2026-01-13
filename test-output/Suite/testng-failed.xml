@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="International_DE_App(failed)">
+  <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="deapp.International_DE_App">
+      <class name="Testclass.International_App">
         <methods>
-          <include name="verify_Portuguese_Brazil_Language"/>
-          <include name="verify_Eurpoean_Portuguese_Language"/>
           <include name="addToReport"/>
-          <include name="extentReportSetUp"/>
+          <include name="verify_French_Language"/>
           <include name="PostConditionTestStatus"/>
+          <include name="extentReportSetUp"/>
         </methods>
-      </class> <!-- deapp.International_DE_App -->
+      </class> <!-- Testclass.International_App -->
     </classes>
-  </test> <!-- International_DE_App(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

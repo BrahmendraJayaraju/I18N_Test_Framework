@@ -75,13 +75,13 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='deapp.report.sendEmail()'><b>sendEmail</b><br>Test class: deapp.report</td>
+<td title='Generic.report.sendEmail()'><b>sendEmail</b><br>Test class: Generic.report</td>
 <td><div><pre>org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
 	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
 	at org.apache.commons.mail.Email.send(Email.java:1496)
-	at deapp.report.sendEmail(report.java:62)
+	at Generic.report.sendEmail(report.java:62)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. Learn more at
+Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Generic-specific password required. Learn more at
 534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a20-20020a637f14000000b005c215baacc1sm4771497pgd.70 - gsmtp
 
 	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
@@ -98,7 +98,7 @@ Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Application-speci
 <div class='stack-trace' id='stack-trace468797188'><pre>org.apache.commons.mail.EmailException: Sending the email to the following server failed : smtp.gmail.com:465
 	at org.apache.commons.mail.Email.sendMimeMessage(Email.java:1469)
 	at org.apache.commons.mail.Email.send(Email.java:1496)
-	at deapp.report.sendEmail(report.java:62)
+	at Generic.report.sendEmail(report.java:62)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -127,7 +127,7 @@ Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Application-speci
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Application-specific password required. Learn more at
+Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Generic-specific password required. Learn more at
 534 5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor a20-20020a637f14000000b005c215baacc1sm4771497pgd.70 - gsmtp
 
 	at com.sun.mail.smtp.SMTPTransport$Authenticator.authenticate(SMTPTransport.java:965)
@@ -142,7 +142,7 @@ Caused by: javax.mail.AuthenticationFailedException: 534-5.7.9 Application-speci
 	... 30 more
 </pre></div></td>
 <td>2</td>
-<td>deapp.report@2034b64c</td></tr>
+<td>Generic.report@2034b64c</td></tr>
 </table><p>
 </body>
 </html>

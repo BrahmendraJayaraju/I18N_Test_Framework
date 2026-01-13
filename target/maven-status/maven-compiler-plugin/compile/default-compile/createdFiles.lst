@@ -1,9 +1,9 @@
 jsondf/AdminBaseControlCat.class
-deapp/International_DE_APP_HighestStringLength.class
-deapp/AdminBaseControl.class
-deapp/commonexcel.class
+Generic/International_DE_APP_HighestStringLength.class
+Generic/AdminBaseControl.class
+Generic/commonexcel.class
 jsondf/demo.class
-deapp/International_DE_App.class
+Generic/International_DE_App.class
 jsondf/commonexcelcat.class
 jsondf/International_DE_Appcat.class
-deapp/SendReportEmail.class
+Generic/SendReportEmail.class

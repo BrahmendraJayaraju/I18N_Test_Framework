@@ -6,31 +6,31 @@
     <groups>
     </groups>
     <test started-at="2025-03-17T21:59:55 GMT-04:00" name="Test" finished-at="2025-03-17T22:09:48 GMT-04:00" duration-ms="592946">
-      <class name="deapp.International_DE_APP_HighestStringLength">
-        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:deapp.International_DE_APP_HighestStringLength@130d63be]" started-at="2025-03-17T21:59:54 GMT-04:00" name="extentReportSetUp" finished-at="2025-03-17T21:59:55 GMT-04:00" duration-ms="562" status="PASS">
+      <class name="Generic.APP_HighestStringLength">
+        <test-method is-config="true" signature="extentReportSetUp()[pri:0, instance:Generic.APP_HighestStringLength@130d63be]" started-at="2025-03-17T21:59:54 GMT-04:00" name="extentReportSetUp" finished-at="2025-03-17T21:59:55 GMT-04:00" duration-ms="562" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- extentReportSetUp -->
-        <test-method signature="Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:deapp.International_DE_APP_HighestStringLength@130d63be]" started-at="2025-03-17T21:59:55 GMT-04:00" name="Get_HighestLength_String_of_Particular_LanguageKey" description="Verify  which language key is having highest number of characters" finished-at="2025-03-17T22:09:47 GMT-04:00" duration-ms="591940" status="PASS">
+        <test-method signature="Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:Generic.APP_HighestStringLength@130d63be]" started-at="2025-03-17T21:59:55 GMT-04:00" name="Get_HighestLength_String_of_Particular_LanguageKey" description="Verify  which language key is having highest number of characters" finished-at="2025-03-17T22:09:47 GMT-04:00" duration-ms="591940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Get_HighestLength_String_of_Particular_LanguageKey -->
-        <test-method is-config="true" signature="PostConditionTestStatus(org.testng.ITestResult)[pri:0, instance:deapp.International_DE_APP_HighestStringLength@130d63be]" started-at="2025-03-17T22:09:47 GMT-04:00" name="PostConditionTestStatus" finished-at="2025-03-17T22:09:48 GMT-04:00" duration-ms="861" status="PASS">
+        <test-method is-config="true" signature="PostConditionTestStatus(org.testng.ITestResult)[pri:0, instance:Generic.APP_HighestStringLength@130d63be]" started-at="2025-03-17T22:09:47 GMT-04:00" name="PostConditionTestStatus" finished-at="2025-03-17T22:09:48 GMT-04:00" duration-ms="861" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=Get_HighestLength_String_of_Particular_LanguageKey status=SUCCESS method=International_DE_APP_HighestStringLength.Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:deapp.International_DE_APP_HighestStringLength@130d63be] output={null}]]]>
+                <![CDATA[[TestResult name=Get_HighestLength_String_of_Particular_LanguageKey status=SUCCESS method=International_DE_APP_HighestStringLength.Get_HighestLength_String_of_Particular_LanguageKey()[pri:1, instance:Generic.APP_HighestStringLength@130d63be] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- PostConditionTestStatus -->
-        <test-method is-config="true" signature="addToReport()[pri:0, instance:deapp.International_DE_APP_HighestStringLength@130d63be]" started-at="2025-03-17T22:09:48 GMT-04:00" name="addToReport" finished-at="2025-03-17T22:09:48 GMT-04:00" duration-ms="57" status="PASS">
+        <test-method is-config="true" signature="addToReport()[pri:0, instance:Generic.APP_HighestStringLength@130d63be]" started-at="2025-03-17T22:09:48 GMT-04:00" name="addToReport" finished-at="2025-03-17T22:09:48 GMT-04:00" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToReport -->
-      </class> <!-- deapp.International_DE_APP_HighestStringLength -->
+      </class> <!-- Generic.APP_HighestStringLength -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -60,7 +60,7 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Get_HighestLength_String_of_Particular_LanguageKey" classname="deapp.International_DE_APP_HighestStringLength" time="591.973">
+  <testcase name="Get_HighestLength_String_of_Particular_LanguageKey" classname="Generic.APP_HighestStringLength" time="591.973">
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
