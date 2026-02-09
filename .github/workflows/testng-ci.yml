@@ -34,7 +34,7 @@ jobs:
         run: mvn -version
 
       - name: Execute TestNG Tests
-        run: mvn clean test
+        run: mvn clean test -Dfile.encoding=UTF-8
 
       - name: Upload TestNG Report
         if: always()
