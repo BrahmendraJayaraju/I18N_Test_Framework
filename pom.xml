@@ -9,12 +9,12 @@
     <version>0.0.1-SNAPSHOT</version>
 
     <properties>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <!-- **Updated Java version to 17** -->
+        <maven.compiler.release>17</maven.compiler.release> <!-- ✅ Replaces source/target to fix system modules warning -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <lombok.version>1.18.30</lombok.version>
-        <!-- Updated POI version for JDK 11+ -->
+        <!-- **Updated Apache POI for JDK 11+** -->
         <poi.version>5.2.3</poi.version>
     </properties>
 
@@ -26,8 +26,8 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
                 <configuration>
-                    <source>${maven.compiler.source}</source>
-                    <target>${maven.compiler.target}</target>
+                    <!-- **Use release instead of source/target** -->
+                    <release>${maven.compiler.release}</release>
                     <annotationProcessorPaths>
                         <path>
                             <groupId>org.projectlombok</groupId>
@@ -90,7 +90,7 @@
             <version>5.0.8</version>
         </dependency>
 
-        <!-- Apache POI (updated) -->
+        <!-- Apache POI (updated for JDK 11+) -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -99,6 +99,11 @@
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi-ooxml</artifactId>
+            <version>${poi.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml-full</artifactId> <!-- ✅ Replaces poi-ooxml-schemas for JDK 11+ -->
             <version>${poi.version}</version>
         </dependency>
 
@@ -116,12 +121,14 @@
             <version>2.16.1</version>
         </dependency>
 
-        <!-- Logging and Commons Libraries (unchanged) -->
+        <!-- Logging -->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
             <version>1.7.5</version>
         </dependency>
+
+        <!-- Apache Commons -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-email</artifactId>
@@ -137,6 +144,8 @@
             <artifactId>commons-compress</artifactId>
             <version>1.14</version>
         </dependency>
+
+        <!-- Mail -->
         <dependency>
             <groupId>com.sun.mail</groupId>
             <artifactId>javax.mail</artifactId>
@@ -147,6 +156,8 @@
             <artifactId>activation</artifactId>
             <version>1.1.1</version>
         </dependency>
+
+        <!-- IO -->
         <dependency>
             <groupId>commons-io</groupId>
             <artifactId>commons-io</artifactId>
