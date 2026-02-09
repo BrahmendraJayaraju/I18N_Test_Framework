@@ -1,0 +1,4404 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>I18N_TestReport</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Feb 9, 2026 02:57:31 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('author-view')">
+<a id="nav-author" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-user"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
+<ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">TesterName=brahmendra.jayaraju@gmail.com</a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">Featurelass.APP_HighestStringLength</a><a class="dropdown-item" href="#">Featurelass.International_App</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase TC3500 Verify APPlication English_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:32 PM</span> / <span>00:00:02:880</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase TC3500 Verify APPlication English_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:32 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:35 PM</span>
+<span class='badge badge-default'>00:00:02:880</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:34 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:34 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Welcome, Get Started!, Loading users..., Cancel, Back, Cancel, Back, Next, Cancel, Back, Cancelllllllllllll]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Welcome}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Get Started!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Loading users...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Next}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelllllllllllll}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Welcome} and  JSON_Value={Welcome}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Get Started!} and  JSON_Value={Get Started!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Loading users...} and  JSON_Value={Loading users...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancel} and  JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Back} and  JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancel} and  JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Back} and  JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Next} and  JSON_Value={Next}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancel} and  JSON_Value={Cancel}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Back} and  JSON_Value={Back}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelllllllllllll} and  JSON_Value={Cancelllllllllllll}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:002</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="2"><span>Verify Excel with JSON English </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:35 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_English_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Danish_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:35 PM</span> / <span>00:00:00:454</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Danish_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:35 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:36 PM</span>
+<span class='badge badge-default'>00:00:00:454</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Velkommen, Kom godt i gang!, Indlæser brugere..., Annuller, Tilbage, Annuller, Tilbage, Næste, Annuller, Tilbage, Annuller]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Velkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Kom godt i gang!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Indlæser brugere...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Næste}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Velkommen} and  JSON_Value={Velkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Kom godt i gang!} and  JSON_Value={Kom godt i gang!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Indlæser brugere...} and  JSON_Value={Indlæser brugere...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuller} and  JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbage} and  JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuller} and  JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbage} and  JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Næste} and  JSON_Value={Næste}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuller} and  JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbage} and  JSON_Value={Tilbage}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuller} and  JSON_Value={Annuller}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="4"><span>Verify Excel with JSON Danish </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Danish_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication German_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:36 PM</span> / <span>00:00:00:347</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication German_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:36 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:36 PM</span>
+<span class='badge badge-default'>00:00:00:347</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Willkommen, Los geht´s!, Benutzer werden geladen..., Abbrechenn, Zurück, Abbrechen, Zurück, Weiter, Abbrechen, Zurück, Abbrechen]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Willkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Los geht´s!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Benutzer werden geladen...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Abbrechenn}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Weiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Willkommen} and  JSON_Value={Willkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Los geht´s!} and  JSON_Value={Los geht´s!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Benutzer werden geladen...} and  JSON_Value={Benutzer werden geladen...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Abbrechenn} and  JSON_Value={Abbrechenn}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Zurück} and  JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Abbrechen} and  JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Zurück} and  JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Weiter} and  JSON_Value={Weiter}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Abbrechen} and  JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Zurück} and  JSON_Value={Zurück}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Abbrechen} and  JSON_Value={Abbrechen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="6"><span>Verify Excel with JSON German </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_German_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="7"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Dutch_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:36 PM</span> / <span>00:00:00:293</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Dutch_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:36 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-default'>00:00:00:293</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:36 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Welkom, Aan de slag!, Gebruikers laden..., Annuleren, Terug, Annuleren, Terug, Volgende, Annuleren, Terug, Annuleren]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Welkom}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Aan de slag!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Gebruikers laden...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Volgende}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Welkom} and  JSON_Value={Welkom}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Aan de slag!} and  JSON_Value={Aan de slag!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Gebruikers laden...} and  JSON_Value={Gebruikers laden...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuleren} and  JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Terug} and  JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuleren} and  JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Terug} and  JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Volgende} and  JSON_Value={Volgende}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuleren} and  JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Terug} and  JSON_Value={Terug}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuleren} and  JSON_Value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="8"><span>Verify Excel with JSON Dutch </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Dutch_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Finnish_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:37 PM</span> / <span>00:00:00:312</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Finnish_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-default'>00:00:00:312</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Tervetuloa, Näin pääset alkuun!, Ladataan käyttäjiä..., Peruuta, Takaisin, Peruuta, Takaisin, Seuraava, Peruuta, Takaisin, Peruuta]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Tervetuloa}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Näin pääset alkuun!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Ladataan käyttäjiä...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Seuraava}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Tervetuloa} and  JSON_Value={Tervetuloa}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Näin pääset alkuun!} and  JSON_Value={Näin pääset alkuun!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Ladataan käyttäjiä...} and  JSON_Value={Ladataan käyttäjiä...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Peruuta} and  JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Takaisin} and  JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Peruuta} and  JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Takaisin} and  JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Seuraava} and  JSON_Value={Seuraava}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Peruuta} and  JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Takaisin} and  JSON_Value={Takaisin}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Peruuta} and  JSON_Value={Peruuta}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="10"><span>Verify Excel with JSON Finnish </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Finnish_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication French_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:37 PM</span> / <span>00:00:00:258</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication French_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-default'>00:00:00:258</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Bienvenue, Commençons, Chargement des utilisateurs..., Annuler, Retour, Annuler, Retour, Suivant, Annuler, Retour, Annuler]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Bienvenue}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Commençons}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Chargement des utilisateurs...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Suivant}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Bienvenue} and  JSON_Value={Bienvenue}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Commençons} and  JSON_Value={Commençons}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Chargement des utilisateurs...} and  JSON_Value={Chargement des utilisateurs...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuler} and  JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retour} and  JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuler} and  JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retour} and  JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Suivant} and  JSON_Value={Suivant}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuler} and  JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retour} and  JSON_Value={Retour}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annuler} and  JSON_Value={Annuler}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="12"><span>Verify Excel with JSON French </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_French_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="13"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Italian_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:37 PM</span> / <span>00:00:00:249</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Italian_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:37 PM</span>
+<span class='badge badge-default'>00:00:00:249</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Ti diamo il benvenuto, Inizia subito, Caricamento utenti..., Annulla, Indietro, Annulla, Indietro, Avanti, Annulla, Indietro, Annulla]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Ti diamo il benvenuto}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Inizia subito}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Caricamento utenti...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Avanti}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Ti diamo il benvenuto} and  JSON_Value={Ti diamo il benvenuto}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Inizia subito} and  JSON_Value={Inizia subito}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Caricamento utenti...} and  JSON_Value={Caricamento utenti...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annulla} and  JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Indietro} and  JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annulla} and  JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Indietro} and  JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Avanti} and  JSON_Value={Avanti}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annulla} and  JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Indietro} and  JSON_Value={Indietro}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Annulla} and  JSON_Value={Annulla}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="14"><span>Verify Excel with JSON Italian </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:37 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Italian_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase Verify APPlication Norwegian_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:38 PM</span> / <span>00:00:00:230</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Norwegian_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-default'>00:00:00:230</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Velkommen, Kom i gang!, Laster brukere ..., Avbryt, Tilbake, Avbryt, Tilbake, Neste, Avbryt, Tilbake, Avbryt]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Velkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Kom i gang!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Laster brukere ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Neste}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Velkommen} and  JSON_Value={Velkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Kom i gang!} and  JSON_Value={Kom i gang!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Laster brukere ...} and  JSON_Value={Laster brukere ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbake} and  JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbake} and  JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Neste} and  JSON_Value={Neste}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tilbake} and  JSON_Value={Tilbake}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="16"><span>Verify Excel with JSON Norwegian</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Norwegian_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="17"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Spanish_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:38 PM</span> / <span>00:00:00:227</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Spanish_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-default'>00:00:00:227</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Bienvenida, Comencemos, Cargando usuarios..., Cancelar, Atrás, Cancelar, Atrás, Siguiente, Cancelar, Atrás, Cancelar]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Bienvenida}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Comencemos}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Cargando usuarios...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Siguiente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Bienvenida} and  JSON_Value={Bienvenida}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Comencemos} and  JSON_Value={Comencemos}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Cargando usuarios...} and  JSON_Value={Cargando usuarios...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Atrás} and  JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Atrás} and  JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Siguiente} and  JSON_Value={Siguiente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Atrás} and  JSON_Value={Atrás}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:002</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="18"><span>Verify Excel with JSON Spanish </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Spanish_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication swedish_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:38 PM</span> / <span>00:00:00:219</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication swedish_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-default'>00:00:00:219</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Välkommen, Kom igång!, Laddar användare ..., Avbryt, Tillbaka, Avbryt, Tillbaka, Nästa, Avbryt, Tillbaka, Avbryt]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Välkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Kom igång!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Laddar användare ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Nästa}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Välkommen} and  JSON_Value={Välkommen}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Kom igång!} and  JSON_Value={Kom igång!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Laddar användare ...} and  JSON_Value={Laddar användare ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tillbaka} and  JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tillbaka} and  JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Nästa} and  JSON_Value={Nästa}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Tillbaka} and  JSON_Value={Tillbaka}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Avbryt} and  JSON_Value={Avbryt}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="20"><span>Verify Excel with JSN swedish </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_swedish_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Eurpoean_Portuguese_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:38 PM</span> / <span>00:00:00:202</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Eurpoean_Portuguese_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-default'>00:00:00:202</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Bem-vindo(a), Começar agora!, Carregando usuários ..., Cancelar, Retroceder, Cancelar, Retroceder, Seguinte, Cancelar, Retroceder, Cancelar]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Bem-vindo(a)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Começar agora!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Carregando usuários ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Seguinte}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Bem-vindo(a)} and  JSON_Value={Bem-vindo(a)}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Começar agora!} and  JSON_Value={Começar agora!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Carregando usuários ...} and  JSON_Value={Carregando usuários ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retroceder} and  JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retroceder} and  JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Seguinte} and  JSON_Value={Seguinte}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Retroceder} and  JSON_Value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="22"><span>Verify Excel with JSON Eurpoean_Portuguese </span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Eurpoean_Portuguese_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase  Verify APPlication Polish_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:38 PM</span> / <span>00:00:00:215</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Polish_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:38 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:39 PM</span>
+<span class='badge badge-default'>00:00:00:215</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:38 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Witaj, Zaczynamy!, Wczytywanie użytkowników ..., Anuluj, Wstecz, Anuluj, Wstecz, Następna, Anuluj, Wstecz, Anuluj]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Witaj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Zaczynamy!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Wczytywanie użytkowników ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Następna}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Witaj} and  JSON_Value={Witaj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Zaczynamy!} and  JSON_Value={Zaczynamy!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Wczytywanie użytkowników ...} and  JSON_Value={Wczytywanie użytkowników ...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Anuluj} and  JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Wstecz} and  JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Anuluj} and  JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Wstecz} and  JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Następna} and  JSON_Value={Następna}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Anuluj} and  JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Wstecz} and  JSON_Value={Wstecz}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Anuluj} and  JSON_Value={Anuluj}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="24"><span>Verify Excel with JSON Polish</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Polish_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.International_App"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase Verify APPlication Brazil_Language_Validation</p>
+            <p class="text-sm">
+              <span>2:57:39 PM</span> / <span>00:00:00:199</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase Verify APPlication Brazil_Language_Validation</h5>
+<span class='badge badge-success'>02.09.2026 2:57:39 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:39 PM</span>
+<span class='badge badge-default'>00:00:00:199</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.International_App</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Features in Excel=[loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Excel Values of Selected Language=[Boas-vindas, Vamos começar!, Carregando usuários..., Cancelar, Voltar, Cancelar, Voltar, Próximo, Cancelar, Voltar, Cancelar]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text blue'>-------------------JSON KEY and JSON VALUE Mentioned Below------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={HEADING} and JSON_Value={Boas-vindas}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={GET_STARTED} and JSON_Value={Vamos começar!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={Loading_users} and JSON_Value={Carregando usuários...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={NEXT} and JSON_Value={Próximo}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={BACK} and JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>KEY={CANCEL} and JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Total JSON Key and JSON Values=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text blue'>--------------------Assertion started From Here--------------------</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={HEADING} and  Excel_Value={Boas-vindas} and  JSON_Value={Boas-vindas}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={GET_STARTED} and  Excel_Value={Vamos começar!} and  JSON_Value={Vamos começar!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={Loading_users} and  Excel_Value={Carregando usuários...} and  JSON_Value={Carregando usuários...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Voltar} and  JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Voltar} and  JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={NEXT} and  Excel_Value={Próximo} and  JSON_Value={Próximo}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={BACK} and  Excel_Value={Voltar} and  JSON_Value={Voltar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Excel_Key={CANCEL} and  Excel_Value={Cancelar} and  JSON_Value={Cancelar}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Assertion Ended All Data is Matching , Total Asserted Keys from JSON with Excel is=11</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="26"><span>Verify Excel with JSON Brazil</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>verify_Portuguese_Brazil_Language "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author="TesterName=brahmendra.jayaraju@gmail.com"
+          tag="Featurelass.APP_HighestStringLength"
+          device="">
+          <div class="test-detail">
+            <p class="name">Testcase TC3500 Verify  APP  with highest number of characters string </p>
+            <p class="text-sm">
+              <span>2:57:39 PM</span> / <span>00:00:00:927</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Testcase TC3500 Verify APP with highest number of characters string </h5>
+<span class='badge badge-success'>02.09.2026 2:57:39 PM</span>
+<span class='badge badge-danger'>02.09.2026 2:57:40 PM</span>
+<span class='badge badge-default'>00:00:00:927</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>
+<span class="badge badge-pill badge-default">Featurelass.APP_HighestStringLength</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Total Number of Keys in Excel=11</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>All Keys in Excel=[null, HEADING, GET_STARTED, Loading_users, CANCEL, BACK, CANCEL, BACK, NEXT, CANCEL, BACK, CANCEL]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:39 PM</td>
+        <td>
+          <span class='badge white-text green'>Al   features  in Excel=[null, loginPage, loginPage, loginPage, account, mycourses, mycourses, contactus, contactus, settings, settings, serviceshop]</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Italian} Feature={loginPage} key={HEADING} value={Ti diamo il benvenuto}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Finnish} Feature={loginPage} key={GET_STARTED} value={Näin pääset alkuun!}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={French} Feature={loginPage} key={Loading_users} value={Chargement des utilisateurs...}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text green'>Language={German} Feature={account} key={CANCEL} value={Abbrechenn}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={mycourses} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={mycourses} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={contactus} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Spanish} Feature={contactus} key={NEXT} value={Siguiente}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Dutch} Feature={settings} key={CANCEL} value={Annuleren}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text red'>Language={Portuguese (EU)} Feature={settings} key={BACK} value={Retroceder}</span>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text green'>Language={English} Feature={serviceshop} key={CANCEL} value={Cancelllllllllllll}</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+  <div class="mt-4">  <div class="accordion" role="tablist">
+      <div class="card">
+        <div class="card-header">
+          <div class="card-toolbar node-info">
+            <ul class="list-inline d-none d-sm-block">
+              <li><span class="badge pass-bg log ">Pass</span></li>
+              <li><span class='badge badge-default'>00:00:000</span></li>
+              <li></li>
+            </ul>
+          </div>
+          <div class="card-title">
+            <a class="node " id="28"><span>Verify  which language key is having highest number of characters</span></a>
+            <div class="node-attr">
+<span class="badge badge-pill badge-default">TesterName=brahmendra.jayaraju@gmail.com</span>            </div>
+          </div>
+        </div>
+        <div class="collapse">
+          <div class="card-body">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>2:57:40 PM</td>
+        <td>
+          <span class='badge white-text green'>Get_HighestLength_String_of_Particular_LanguageKey "Language comparision  is passed"</span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">2</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">Featurelass.APP_HighestStringLength</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Featurelass.APP_HighestStringLength</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Testcase TC3500 Verify APP with highest number of characters string </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>13</span>
+</span>
+<p class="name">Featurelass.International_App</p>
+<p class="duration text-sm">13 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>Featurelass.International_App</h4>
+<span status="pass" class='badge log pass-bg'>13 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Testcase TC3500 Verify APPlication English_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Testcase Verify APPlication Danish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Testcase Verify APPlication German_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Testcase Verify APPlication Dutch_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Testcase Verify APPlication Finnish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Testcase Verify APPlication French_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Testcase Verify APPlication Italian_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Testcase Verify APPlication Norwegian_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Testcase Verify APPlication Spanish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Testcase Verify APPlication swedish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Testcase Verify APPlication Eurpoean_Portuguese_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Testcase Verify APPlication Polish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Testcase Verify APPlication Brazil_Language_Validation</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view author-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Author</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>14</span>
+</span>
+<p class="name">TesterName=brahmendra.jayaraju@gmail.com</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>TesterName=brahmendra.jayaraju@gmail.com</h4>
+<span status="pass" class='badge log pass-bg'>14 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:32 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>Testcase TC3500 Verify APPlication English_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Testcase Verify APPlication Danish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Testcase Verify APPlication German_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:36 PM</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Testcase Verify APPlication Dutch_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Testcase Verify APPlication Finnish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Testcase Verify APPlication French_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:37 PM</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Testcase Verify APPlication Italian_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>Testcase Verify APPlication Norwegian_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Testcase Verify APPlication Spanish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Testcase Verify APPlication swedish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Testcase Verify APPlication Eurpoean_Portuguese_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:38 PM</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Testcase Verify APPlication Polish_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Testcase Verify APPlication Brazil_Language_Validation</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>14:57:39 PM</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Testcase TC3500 Verify APP with highest number of characters string </a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Feb 9, 2026 02:57:31 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Feb 9, 2026 02:57:40 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>14</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>14</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>14</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='3%'><b>14</b> events passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> events failed,
+<b data-tooltip='%'>404</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Testcase TC3500 Verify APPlication English_Language_Validation":2.88,"Testcase Verify APPlication Danish_Language_Validation":0.454,"Testcase Verify APPlication German_Language_Validation":0.347,"Testcase Verify APPlication Dutch_Language_Validation":0.293,"Testcase Verify APPlication Finnish_Language_Validation":0.312,"Testcase Verify APPlication French_Language_Validation":0.258,"Testcase Verify APPlication Italian_Language_Validation":0.249,"Testcase Verify APPlication Norwegian_Language_Validation":0.23,"Testcase Verify APPlication Spanish_Language_Validation":0.227,"Testcase Verify APPlication swedish_Language_Validation":0.219,"Testcase Verify APPlication Eurpoean_Portuguese_Language_Validation":0.202,"Testcase Verify APPlication Polish_Language_Validation":0.215,"Testcase Verify APPlication Brazil_Language_Validation":0.199,"Testcase TC3500 Verify APP with highest number of characters string ":0.927
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 author-container">
+<div class="card">
+<div class="card-header"><p>Author</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
+<tbody>
+<tr>
+<td>TesterName=brahmendra.jayaraju@gmail.com</td>
+<td>14</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>Featurelass.APP_HighestStringLength</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>Featurelass.International_App</td>
+<td>13</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 14,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 14,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 14,
+failEvents: 0,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 404
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
