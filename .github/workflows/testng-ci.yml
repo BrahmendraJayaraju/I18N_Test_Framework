@@ -34,7 +34,8 @@ jobs:
         run: mvn -version
 
       - name: Execute TestNG Tests
-        run: mvn clean test -Dfile.encoding=UTF-8
+        # ✅ Quote the property to fix Windows Maven issue
+        run: mvn clean test "-Dfile.encoding=UTF-8"
 
       - name: Upload TestNG Report
         if: always()
@@ -64,4 +65,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: test-output
-          force_orphan: true
