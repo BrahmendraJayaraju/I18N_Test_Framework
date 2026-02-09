@@ -34,7 +34,7 @@ jobs:
         run: mvn -version
 
       - name: Execute TestNG Tests
-        # ✅ Quote the property to fix Windows Maven issue
+        
         run: mvn clean test "-Dfile.encoding=UTF-8"
 
       - name: Upload TestNG Report
@@ -42,7 +42,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: testng-report
-          path: test-output
+          path: Project_18N_Reports
 
   publish-report:
     name: Publish TestNG Report to GitHub Pages
