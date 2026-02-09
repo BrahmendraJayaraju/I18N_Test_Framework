@@ -19,6 +19,9 @@ jobs:
     steps:
       - name: Checkout source code
         uses: actions/checkout@v4
+		
+		
+
 
       - name: Set up JDK 17
         uses: actions/setup-java@v4
@@ -60,7 +63,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
           name: testng-report
-          path: test-output
+          path:  Project_18N_Reports 
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
