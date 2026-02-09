@@ -144,6 +144,15 @@
             <artifactId>commons-compress</artifactId>
             <version>1.14</version>
         </dependency>
+        
+        
+        
+    <dependency>
+    <groupId>org.slf4j</groupId>
+    <artifactId>slf4j-simple</artifactId>
+    <version>1.7.36</version> <!-- matches your slf4j-api -->
+    <scope>test</scope>
+</dependency>
 
         <!-- Mail -->
         <dependency>
@@ -164,5 +173,7 @@
             <version>2.6</version>
         </dependency>
     </dependencies>
+    
+
 
 </project>
