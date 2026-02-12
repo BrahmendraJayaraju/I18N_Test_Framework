@@ -41,11 +41,11 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: testng-report
+          name: Extent-report
           path: Project_18N_Reports
 
   publish-report:
-    name: Publish TestNG Report to GitHub Pages
+    name: Publish Extent Report to GitHub Pages
     needs: testng-tests
     runs-on: windows-latest
     if: always()
@@ -57,7 +57,7 @@ jobs:
       - name: Download TestNG Report
         uses: actions/download-artifact@v4
         with:
-          name: estng-report
+          name: Extent-report
           path: Project_18N_Reports
 
       - name: Deploy to GitHub Pages
