@@ -37,7 +37,7 @@ jobs:
         
         run: mvn clean test "-Dfile.encoding=UTF-8"
 
-      - name: Upload TestNG Report
+      - name: Upload Extent Report
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -57,8 +57,8 @@ jobs:
       - name: Download TestNG Report
         uses: actions/download-artifact@v4
         with:
-          name: testng-report
-          path: test-output
+          name: estng-report
+          path: Project_18N_Reports
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
