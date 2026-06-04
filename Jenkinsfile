@@ -1,6 +1,5 @@
 pipeline {
     agent any
-
     triggers {
         cron('0 20 * * *')   // 8 PM daily
     }
@@ -35,7 +34,7 @@ pipeline {
                 alwaysLinkToLastBuild: true
             ])
 
-            echo "================================="
+            echo "================================"
             echo " REPORT LINK"
             echo "${env.BUILD_URL}Extent_20Report/"
             echo "================================="
