@@ -89,7 +89,7 @@ public class AdminBaseControl {
 
 			catch (Exception e) {
 
-				// To get Bug icon and exceptions of Defects and info
+			
 				secondTest.log(Status.FAIL, e.getMessage());
 
 				System.out.println("error message" + e.getMessage());
