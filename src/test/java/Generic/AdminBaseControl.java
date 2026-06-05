@@ -79,7 +79,7 @@ public class AdminBaseControl {
 
 			try {
 
-				// to capture status,name of testmethod in Tests node
+				// to capture status,name of test method in Tests node
 				secondTest.log(Status.FAIL, name + " \"Language comparision failed \"");
 
 				// To get Bug icon and exceptions of Defects and info
