@@ -31,7 +31,7 @@ public class AdminBaseControl {
 
 	public static void assignTestCategories(String pageName) {
 
-		// To get category tag names
+		
 		mainTest.assignCategory(pageName);
 
 	}
